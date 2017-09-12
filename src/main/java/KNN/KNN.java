@@ -188,9 +188,10 @@ public class KNN {
 		Collections.sort(sortList, new Comparator<Map<String,Object>>(){
 
 			public int compare(Map<String,Object> arg0, Map<String,Object> arg1) {
+			//	return ((Double)arg0.get("value")).compareTo((Double)arg1.get("value"));
 				if((Double)arg0.get("value") > (Double)arg1.get("value"))
 					return 1;
-				else if((Double)arg0.get("value") > (Double)arg1.get("value"))
+				else if((Double)arg0.get("value") < (Double)arg1.get("value"))
 					return -1;
 				else 
 					return 0;
