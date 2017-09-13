@@ -80,6 +80,7 @@ public class KNN {
 	}
 
 	public void file2matrix(String filename) throws Exception{
+		// 打开数据文件，读取每行内容
 		BufferedReader textBuffer = new BufferedReader(new InputStreamReader(new FileInputStream(filename)));
 		String str = "";
 		List<String> list = new ArrayList<String>();
