@@ -1,10 +1,13 @@
 package DecisionTree;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class DecisionTree {
 	
@@ -135,5 +138,101 @@ public class DecisionTree {
 			}
 		}
 		return bestFeature;
+	}
+	
+	public TreeNode createTree(String[][] dataSet, String[] labels){
+		
+		String [] classList = new String[dataSet.length];
+		
+		int k = 0;// 记录classList[0]的出现次数
+		for(int i=0;i<dataSet.length;i++){
+			classList[i] = dataSet[i][dataSet[0].length-1];
+			if(i == 0){
+				k=1;
+			}else if(classList[0].equals(classList[i])){
+				k++;
+			}
+		}
+		// 数据集的类别完全相同时则停止继续对数据集进行划分，并返回分类标签
+		if(k == classList.length){
+			// TreeNode n = new TreeNode(classList[0],null);
+			TreeNode n = new TreeNode("",null,classList[0]);
+			return n;
+		}
+		
+		// 如果所有的特征值都已经遍历结束，且数据集的类别不完全相同
+		if(dataSet[0].length == 1){
+			Map<String,Integer> classCount = new HashMap<String,Integer>();
+			for(String vote:classList){
+				if(classCount.containsKey(vote)){
+					classCount.put(vote, classCount.get(vote)+1);
+				}else{
+					classCount.put(vote, 1);
+				}
+			}
+			// 对classCount排序
+			// 通过ArrayList构造函数把map.entrySet()转换成list
+	        List<Map.Entry<String,Integer>> maplist = new ArrayList<Map.Entry<String,Integer>>(classCount.entrySet());
+	        // 通过比较器实现比较排序
+	        Collections.sort(maplist, new Comparator<Map.Entry<String,Integer>>() {
+	            public int compare(Map.Entry<String,Integer> mapping1, Map.Entry<String,Integer> mapping2) {
+	                return mapping2.getValue().compareTo(mapping1.getValue());
+	            }
+	        });
+	        // TreeNode n = new TreeNode(maplist.get(0).getKey(),null);
+	        TreeNode n = new TreeNode("",null,maplist.get(0).getKey());
+	        return n;
+		}
+		
+		// 获取最好的划分特征,前面保证了dataSet至少有两列
+		int bestFeat = chooseBestFeatureToSplit(dataSet);
+		String bestFeatLabel = labels[bestFeat];
+		
+		// 以当前数据集中获取的最好的特征初始化树
+		// TreeNode myTree = new TreeNode(bestFeatLabel,null);
+		TreeNode myTree = new TreeNode(bestFeatLabel,null,null);
+		String [] subLabels = new String[labels.length - 1];
+		for(int i=0;i<subLabels.length;i++){
+			if(i<bestFeat){
+				subLabels[i] = labels[i];
+			}else{
+				subLabels[i] = labels[i+1];
+			}
+		}
+		
+		// 提取该特征对应的所有去重特征值
+		Map<String,Integer> uniqueVals = new HashMap<String,Integer>();
+		for(int i=0;i<dataSet.length;i++){
+			String key = dataSet[i][bestFeat];
+			if(uniqueVals.containsKey(key)){
+				uniqueVals.put(key, uniqueVals.get(key)+1);
+			}else{
+				uniqueVals.put(key, 1);
+			}
+		}
+		
+		// 划分数据集，创建树的分支，将不同的特征值对应的数据集进行递归划分
+		Iterator<Map.Entry<String, Integer>> it = uniqueVals.entrySet().iterator();
+		while (it.hasNext()) {
+			Map.Entry<String, Integer> entry = it.next();
+			String value = entry.getKey();
+			
+			TreeNode o = createTree(splitDataSet(dataSet,bestFeat,value),subLabels);
+			
+			if(myTree.childList == null){
+				myTree.childList = new ArrayList<TreeNode>();
+			}
+			o.labe = value;
+			myTree.childList.add(o);
+			
+/*			if(myTree.child == null){
+				myTree.child = new HashMap<String,TreeNode>();
+			}
+			myTree.child.put(value, o);
+			*/
+		}
+		
+		return myTree;
+		
 	}
 }

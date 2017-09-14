@@ -45,6 +45,8 @@ public class TestDecisionTree {
 		
 		DecisionTree d = new DecisionTree();
 		//System.out.println(d.calcShannonEnt(lenses));
-		System.out.println(d.chooseBestFeatureToSplit(lenses));
+		//System.out.println(d.chooseBestFeatureToSplit(lenses));
+		TreeNode root = d.createTree(lenses, lensesLabels);
+		System.out.println(root);
 	}
 }
