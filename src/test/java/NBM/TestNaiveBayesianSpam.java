@@ -94,33 +94,11 @@ public class TestNaiveBayesianSpam {
 	}
 	
 	
-	public static List<String> createVocabList(List<List<String>> docList){
-		List<String> vocabList = null;
-		vocabList = ListUtil.uniqueValsList(docList);
-		return vocabList;
-	}
 	
-	public static List<Integer> bagOfWords2VecMN(List<String> vocabList, List<String> inputSet){
-		List<Integer> returnVec = new ArrayList<Integer>();
-		for(int i=0;i<vocabList.size();i++){
-			returnVec.add(0);
-		}
-		Map<String,Integer> uniqueVocabVals = ListUtil.uniqueListMapIndex(vocabList);
-		for(String word:inputSet){
-			if(uniqueVocabVals.containsKey(word)){
-				Integer o = returnVec.get(uniqueVocabVals.get(word));
-				if(o == null){
-					o = 0;
-				}
-				o++;
-				returnVec.remove(uniqueVocabVals.get(word).intValue());// 由于uniqueVocabVals.get(word)返回是Integer，如果没有.intValue()，List是按照value去找
-				returnVec.add(uniqueVocabVals.get(word), o);
-			}
-		}
-		return returnVec;
-	}
 	
 	public static void spamTest() throws Exception{
+		
+		NaiveBayesian nb = new NaiveBayesian();
 		
 		List<String> fullText = new ArrayList<String>();
 		List<List<String>> docList = new ArrayList<List<String>>();
@@ -140,7 +118,7 @@ public class TestNaiveBayesianSpam {
 			classList.add(0);
 		}
 		
-		List<String> vocabList = createVocabList(docList);
+		List<String> vocabList = nb.createVocabList(docList);
 		
 		List<Integer> trainingSet = new ArrayList<Integer>();
 		for(int i=0;i<50;i++){
@@ -157,7 +135,7 @@ public class TestNaiveBayesianSpam {
 		List<List<Integer>> trainMat = new ArrayList<List<Integer>>();
 		List<Integer> trainClasses = new ArrayList<Integer>();
 		for(Integer docIndex:trainingSet){
-			trainMat.add(bagOfWords2VecMN(vocabList, docList.get(docIndex)));
+			trainMat.add(nb.bagOfWords2VecMN(vocabList, docList.get(docIndex)));
 			trainClasses.add(classList.get(docIndex));
 		}
 		
@@ -174,7 +152,7 @@ public class TestNaiveBayesianSpam {
 			trainCategory[i] = trainClasses.get(i);
 		}
 		
-		NaiveBayesian nb = new NaiveBayesian();
+		
 		nb.trainNB0(trainMatrix, trainCategory);
 		double pSpam = nb.pAbusive;
 		double[] p1V = nb.p1Vect;
@@ -182,7 +160,7 @@ public class TestNaiveBayesianSpam {
 		
 		int errorCount = 0;
 		for(Integer docIndex :testSet){
-			List<Integer> wordVector = bagOfWords2VecMN(vocabList,docList.get(docIndex));
+			List<Integer> wordVector = nb.bagOfWords2VecMN(vocabList,docList.get(docIndex));
 			Integer[] wordVectorArray = new Integer[wordVector.size()];
 			for(int i=0;i<wordVector.size();i++){
 				wordVectorArray[i] = wordVector.get(i);

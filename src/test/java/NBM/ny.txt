@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:enc="http://purl.oclc.org/net/rss_2.0/enc#"
+ xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="https://newyork.craigslist.org/search/stp?format=rss">
+<title>craigslist new york | strictly platonic search </title>
+<link>https://newyork.craigslist.org/search/stp</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:publisher>robot@craigslist.org</dc:publisher>
+<dc:creator>robot@craigslist.org</dc:creator>
+<dc:source>https://newyork.craigslist.org/search/stp?format=rss</dc:source>
+<dc:title>craigslist new york | strictly platonic search </dc:title>
+<dc:type>Collection</dc:type>
+<syn:updateBase>2016-03-29T01:51:59-04:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brx/stp/5512980545.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/mnh/stp/5501069739.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brk/stp/5494619089.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brk/stp/5494605914.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brk/stp/5512982007.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5508800500.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5512960725.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/mnh/stp/5512973874.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5512973748.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brx/stp/5512971662.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5512966865.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brk/stp/5512959689.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5512875122.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/stn/stp/5512958032.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5506459648.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5496437600.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/mnh/stp/5475533647.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/wch/stp/5500677416.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brk/stp/5512951951.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/mnh/stp/5512935013.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brk/stp/5503897093.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/que/stp/5512928151.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/mnh/stp/5512935881.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/brk/stp/5487529981.html" />
+  <rdf:li rdf:resource="http://newyork.craigslist.org/lgi/stp/5512930557.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://newyork.craigslist.org/brx/stp/5512980545.html">
+<title><![CDATA[Let's hang and smoke and drink - m4w (bronx)]]></title>
+<link>http://newyork.craigslist.org/brx/stp/5512980545.html</link>
+<description><![CDATA[As the title says we can drink smoke and chill I am in the Bronx let me know soon as possible please send a full clear clean pic about be able to meet up]]></description>
+<dc:date>2016-03-29T00:44:31-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brx/stp/5512980545.html</dc:source>
+<dc:title><![CDATA[Let's hang and smoke and drink - m4w (bronx)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:44:31-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/mnh/stp/5501069739.html">
+<title><![CDATA[Do You Have Nice Feet? Let's Meet! - m4w (Manhattan)]]></title>
+<link>http://newyork.craigslist.org/mnh/stp/5501069739.html</link>
+<description><![CDATA[Are your feet your best feature? Do you get complimented on your feet. You pamper them, keep them soft and smooth, you paint your nails all kinds of colors to make them look good and get noticed. You know your feet look great. You wear sexy shoes tha [...]]]></description>
+<dc:date>2016-03-29T00:30:04-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/mnh/stp/5501069739.html</dc:source>
+<dc:title><![CDATA[Do You Have Nice Feet? Let's Meet! - m4w (Manhattan)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00s0s_4ePk84ZOVnV_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-29T00:30:04-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brk/stp/5494619089.html">
+<title><![CDATA[starting a sisterhood for 2016 - w4w (flatbush)]]></title>
+<link>http://newyork.craigslist.org/brk/stp/5494619089.html</link>
+<description><![CDATA[hey ladies, well since i have mostly guy friends and no female friends i have decided to start a sisterhood where woman can come together and form long lasting friendships. the sisterhood will consist of monthly meetings/activities. the monthly meeti [...]]]></description>
+<dc:date>2016-03-29T00:14:30-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brk/stp/5494619089.html</dc:source>
+<dc:title><![CDATA[starting a sisterhood for 2016 - w4w (flatbush)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:14:30-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brk/stp/5494605914.html">
+<title><![CDATA[go best friend need a bestie/partner in crime - w4w (brooklyn)]]></title>
+<link>http://newyork.craigslist.org/brk/stp/5494605914.html</link>
+<description><![CDATA[I am looking for my bestie/partner in crime. Someone I can go out with and have fun. As well as talk to about anything. I am down to earth,funny, not about drama. well,we all have some drama,but if you have alot of it we will not click. I am African  [...]]]></description>
+<dc:date>2016-03-29T00:14:16-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brk/stp/5494605914.html</dc:source>
+<dc:title><![CDATA[go best friend need a bestie/partner in crime - w4w (brooklyn)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:14:16-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brk/stp/5512982007.html">
+<title><![CDATA[Gay male looking for friends - m4mw (Bushwick)]]></title>
+<link>http://newyork.craigslist.org/brk/stp/5512982007.html</link>
+<description><![CDATA[Hi. I'm a gay male 19. Wanting to meet new people and just hangout\chat. I enjoy laying in bed listening to music , watch funny or interesting TV series, talk about life or relationship problems. I also like some anime and games like yugioh or Pokemo [...]]]></description>
+<dc:date>2016-03-29T00:12:44-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brk/stp/5512982007.html</dc:source>
+<dc:title><![CDATA[Gay male looking for friends - m4mw (Bushwick)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:12:44-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5508800500.html">
+<title><![CDATA[Free Soothing Massage - m4w]]></title>
+<link>http://newyork.craigslist.org/que/stp/5508800500.html</link>
+<description><![CDATA[Hi -- Im offering a free soothing massage. I bring the lotions and oil -- all you need to do is relax and enjoy. Regardless of what shape youre in, this will relieve your tension. I need the practice and you can benefit from a relaxing full body rub. [...]]]></description>
+<dc:date>2016-03-29T00:11:31-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5508800500.html</dc:source>
+<dc:title><![CDATA[Free Soothing Massage - m4w]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:11:31-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5512960725.html">
+<title><![CDATA[Hello - m4w (East Elmhurst)]]></title>
+<link>http://newyork.craigslist.org/que/stp/5512960725.html</link>
+<description><![CDATA[I am looking to start a new friendship with a very elegant and fine woman , all races are welcome , just be nice , single and fun to be around. 
+I like to enjoy the finest things in life , like attending a wine tasting club , a private movie screenin [...]]]></description>
+<dc:date>2016-03-29T00:06:46-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5512960725.html</dc:source>
+<dc:title><![CDATA[Hello - m4w (East Elmhurst)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:06:46-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/mnh/stp/5512973874.html">
+<title><![CDATA[The girl who helped me with my dog - m4w (Battery Park)]]></title>
+<link>http://newyork.craigslist.org/mnh/stp/5512973874.html</link>
+<description><![CDATA[thank you. 
+today was awful and you really helped me. 
+I lost my good boy and you were kind enough to help.]]></description>
+<dc:date>2016-03-29T00:01:35-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/mnh/stp/5512973874.html</dc:source>
+<dc:title><![CDATA[The girl who helped me with my dog - m4w (Battery Park)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:01:35-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5512973748.html">
+<title><![CDATA[I am seeking a Sir Yes Sir Tyoe - m4m (Flushing)]]></title>
+<link>http://newyork.craigslist.org/que/stp/5512973748.html</link>
+<description><![CDATA[I am seeking a Sir Yes Sir Type of submissive guy that I seeking to find a good Dom not based on looks. This is a mental connection in which you will fully surrender to my will in everyway.]]></description>
+<dc:date>2016-03-29T00:01:25-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5512973748.html</dc:source>
+<dc:title><![CDATA[I am seeking a Sir Yes Sir Tyoe - m4m (Flushing)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-29T00:01:25-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brx/stp/5512971662.html">
+<title><![CDATA[In your car ! - m4m (Bronx)]]></title>
+<link>http://newyork.craigslist.org/brx/stp/5512971662.html</link>
+<description><![CDATA[Im into all types of men age doesn't matter to me 
+Pick me up in your car ill suck your cock you cum and drop me off 
+Text me all night 
+9seven3-ninetwo2-three4zero7]]></description>
+<dc:date>2016-03-28T23:58:46-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brx/stp/5512971662.html</dc:source>
+<dc:title><![CDATA[In your car ! - m4m (Bronx)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00K0K_lN9NVkcW8je_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T23:58:46-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5512966865.html">
+<title><![CDATA[Are you a true hypno-slave doll? - m4m (New York City)]]></title>
+<link>http://newyork.craigslist.org/que/stp/5512966865.html</link>
+<description><![CDATA[You are true quite, loyal, passive and obedient guy seeking a young nerdy black Dom to fully surrender life to. Mind, body, strict rules, dresscode and more.]]></description>
+<dc:date>2016-03-28T23:52:31-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5512966865.html</dc:source>
+<dc:title><![CDATA[Are you a true hypno-slave doll? - m4m (New York City)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:52:31-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brk/stp/5512959689.html">
+<title><![CDATA[Brighton Beach Boardwalk Partner - m4m (Brighton Beach)]]></title>
+<link>http://newyork.craigslist.org/brk/stp/5512959689.html</link>
+<description><![CDATA[Hi, 
+If you are interested in walking the boardwalk a couple of times a week and are an early riser please contact me. If you just want to listen to your IPod no communication necessary; safety in numbers. If you like to drink and are looking for non [...]]]></description>
+<dc:date>2016-03-28T23:43:35-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brk/stp/5512959689.html</dc:source>
+<dc:title><![CDATA[Brighton Beach Boardwalk Partner - m4m (Brighton Beach)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:43:35-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5512875122.html">
+<title><![CDATA[CUDDLING ONLY! NO MEN! 34SVN_sx7one_Svn21svn - m4w (queens)]]></title>
+<link>http://newyork.craigslist.org/que/stp/5512875122.html</link>
+<description><![CDATA[Hi there! I'm not looking for sex! I figured I'd get that out of the way. I am just looking for innocent cuddling and nothing more. I am a good looking guy and am seeking a cute girl to hold in my arms and cuddle with. Please reply with a few pics an [...]]]></description>
+<dc:date>2016-03-28T23:42:14-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5512875122.html</dc:source>
+<dc:title><![CDATA[CUDDLING ONLY! NO MEN! 34SVN_sx7one_Svn21svn - m4w (queens)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00c0c_W4hLYX6ETW_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T23:42:14-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/stn/stp/5512958032.html">
+<title><![CDATA[Brazilian and Cuban mixed beauty😍😘🙈🙊🙉 - (Staten Island)]]></title>
+<link>http://newyork.craigslist.org/stn/stp/5512958032.html</link>
+<description><![CDATA[5'5 don't wast my time serious &#129300; Don't think about it&#128548; 
+come get it don't be shy I'll will take of your need &#128538;&#128536;&#128536; 
+Promise u reasonable prices don't miss out&#128521;&#128536;&#128536;&#128536;one&#128584;&#1285 [...]]]></description>
+<dc:date>2016-03-28T23:41:31-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/stn/stp/5512958032.html</dc:source>
+<dc:title><![CDATA[Brazilian and Cuban mixed beauty😍😘🙈🙊🙉 - (Staten Island)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00505_2sm0G4M6XZs_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T23:41:31-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5506459648.html">
+<title><![CDATA[Want someone to watch you? - m4mw (Queens/Nassau)]]></title>
+<link>http://newyork.craigslist.org/que/stp/5506459648.html</link>
+<description><![CDATA[Want someone to watch you? (Queens/Nassau) 
+Male would like to watch a couple. Perfect for exhibitionists. 
+I can even photograph or film you using your own equipment 
+so you can be assured of the only copy. 
+My level of involvement is totally up to  [...]]]></description>
+<dc:date>2016-03-28T23:38:23-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5506459648.html</dc:source>
+<dc:title><![CDATA[Want someone to watch you? - m4mw (Queens/Nassau)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:38:23-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5496437600.html">
+<title><![CDATA[Embarrassing Story - m4w (Queens)]]></title>
+<link>http://newyork.craigslist.org/que/stp/5496437600.html</link>
+<description><![CDATA[Do you have an embarrassing story that's worthy enough to share with someone? 
+Tell me about that embarrassing embarrassment that you're embarrassed about. What was it exactly that happened?]]></description>
+<dc:date>2016-03-28T23:37:25-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5496437600.html</dc:source>
+<dc:title><![CDATA[Embarrassing Story - m4w (Queens)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:37:25-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/mnh/stp/5475533647.html">
+<title><![CDATA[Performing Artist Type for Creative Friendship/Relationship - m4w]]></title>
+<link>http://newyork.craigslist.org/mnh/stp/5475533647.html</link>
+<description><![CDATA[Hello there, looking for a Creative friendship and maybe more, and even open to collaborations and other things. 
+I am a 26 year old mixed race (Hispanic, Italian, Indian) versatile performing male actor from New York City. I can play characters of v [...]]]></description>
+<dc:date>2016-03-28T23:36:29-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/mnh/stp/5475533647.html</dc:source>
+<dc:title><![CDATA[Performing Artist Type for Creative Friendship/Relationship - m4w]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:36:29-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/wch/stp/5500677416.html">
+<title><![CDATA[Single Male In Search of A New Female Friend - - m4w - m4w (new york)]]></title>
+<link>http://newyork.craigslist.org/wch/stp/5500677416.html</link>
+<description><![CDATA[white male 43 years old 511 in good shape thin build Okay so I am a single male who has been going through a difficult time over the past few years. Most of my friends have moved on to the next stage of life. They now have kids and families and don't [...]]]></description>
+<dc:date>2016-03-28T23:36:17-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/wch/stp/5500677416.html</dc:source>
+<dc:title><![CDATA[Single Male In Search of A New Female Friend - - m4w - m4w (new york)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:36:17-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brk/stp/5512951951.html">
+<title><![CDATA[STRICTLY PLATONIC Cuddle, Snuggle, BFF - m4w]]></title>
+<link>http://newyork.craigslist.org/brk/stp/5512951951.html</link>
+<description><![CDATA[I am a 30 year old straight male seeking a PLATONIC friendship with a woman who is passionate, attentive, clingy, enjoys deep and meaningful conversation and is non-superficial. I enjoy hugging, cuddling, snuggling, spooning, sensual touching and giv [...]]]></description>
+<dc:date>2016-03-28T23:34:10-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brk/stp/5512951951.html</dc:source>
+<dc:title><![CDATA[STRICTLY PLATONIC Cuddle, Snuggle, BFF - m4w]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00m0m_fjs6SzfaUWm_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T23:34:10-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/mnh/stp/5512935013.html">
+<title><![CDATA[Looking for FEMALE Running Partner - m4w (Upper East Side)]]></title>
+<link>http://newyork.craigslist.org/mnh/stp/5512935013.html</link>
+<description><![CDATA[As the weather begins to warm up, I'd like to start running once or twice during the weekday evenings after work. 
+I'm a smoker, and I want to stop; running is one of the ways that I want to try to help this effort. 
+I do play basketball rather inten [...]]]></description>
+<dc:date>2016-03-28T23:27:56-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/mnh/stp/5512935013.html</dc:source>
+<dc:title><![CDATA[Looking for FEMALE Running Partner - m4w (Upper East Side)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:27:56-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brk/stp/5503897093.html">
+<title><![CDATA[enjoy the night life - m4w (brooklyn)]]></title>
+<link>http://newyork.craigslist.org/brk/stp/5503897093.html</link>
+<description><![CDATA[hello and good evening i am not single and not looking for anything special just a young or even a older woman to join me on nights when i go to a descent lounge or a club basically im just looking for someone to enjoy my night life with... you must  [...]]]></description>
+<dc:date>2016-03-28T23:22:19-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brk/stp/5503897093.html</dc:source>
+<dc:title><![CDATA[enjoy the night life - m4w (brooklyn)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00W0W_k8ZRW73V0Ii_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T23:22:19-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/que/stp/5512928151.html">
+<title><![CDATA[On this windy night....relax, conversate and wine - m4w (Queens)]]></title>
+<link>http://newyork.craigslist.org/que/stp/5512928151.html</link>
+<description><![CDATA[Any females out here just want to relax, sit down, maybe watch a movie, talk with a glass of wine. I'll be more than willing to go to you.]]></description>
+<dc:date>2016-03-28T23:20:20-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/que/stp/5512928151.html</dc:source>
+<dc:title><![CDATA[On this windy night....relax, conversate and wine - m4w (Queens)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:20:20-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/mnh/stp/5512935881.html">
+<title><![CDATA[Looking for Math majors / fanatics (Harlem / Morningside)]]></title>
+<link>http://newyork.craigslist.org/mnh/stp/5512935881.html</link>
+<description><![CDATA[Hello everyone, I am looking for mathematicians! people who love math. Algebra, calculus 1-4, trigonometry, etc Hope there are a few out there. Please be sane but crazy about math.]]></description>
+<dc:date>2016-03-28T23:15:56-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/mnh/stp/5512935881.html</dc:source>
+<dc:title><![CDATA[Looking for Math majors / fanatics (Harlem / Morningside)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:15:56-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/brk/stp/5487529981.html">
+<title><![CDATA[Cookie Monster wants to Smoke before eating_______________________ - m4w]]></title>
+<link>http://newyork.craigslist.org/brk/stp/5487529981.html</link>
+<description><![CDATA[I'm a male that loves to smoke and eat the cookie..... 
+You: 
+- Like to smoke 420 
+- Enjoy getting your cookie devoured 
+- Are very cool and easy going 
+This is plain and simple straight to the point. I'm very Discreet and will respect your privacy.  [...]]]></description>
+<dc:date>2016-03-28T23:15:12-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/brk/stp/5487529981.html</dc:source>
+<dc:title><![CDATA[Cookie Monster wants to Smoke before eating_______________________ - m4w]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00T0T_1GUD4WYG1QW_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T23:15:12-04:00</dcterms:issued>
+</item>
+<item rdf:about="http://newyork.craigslist.org/lgi/stp/5512930557.html">
+<title><![CDATA[my friend - m4w]]></title>
+<link>http://newyork.craigslist.org/lgi/stp/5512930557.html</link>
+<description><![CDATA[I am looking for a specific person. We met here a few months back then stopped talking. In the past week I have received 3 messages from you, I have responded to you but I don't think you are getting my messages. If you see this reply to me and tell  [...]]]></description>
+<dc:date>2016-03-28T23:10:00-04:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://newyork.craigslist.org/lgi/stp/5512930557.html</dc:source>
+<dc:title><![CDATA[my friend - m4w]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T23:10:00-04:00</dcterms:issued>
+</item>
+</rdf:RDF>

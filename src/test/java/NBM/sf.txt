@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:enc="http://purl.oclc.org/net/rss_2.0/enc#"
+ xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="https://sfbay.craigslist.org/search/stp?format=rss">
+<title>craigslist SF bay area | strictly platonic search </title>
+<link>https://sfbay.craigslist.org/search/stp</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:publisher>robot@craigslist.org</dc:publisher>
+<dc:creator>robot@craigslist.org</dc:creator>
+<dc:source>https://sfbay.craigslist.org/search/stp?format=rss</dc:source>
+<dc:title>craigslist SF bay area | strictly platonic search </dc:title>
+<dc:type>Collection</dc:type>
+<syn:updateBase>2016-03-28T22:31:10-07:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512980370.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/stp/5512970846.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512987326.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5506484522.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5506488584.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5499827408.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/stp/5512971620.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5469428180.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5475518126.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5508587988.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/stp/5512980245.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512975745.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512974202.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5509785738.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/stp/5512972187.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/stp/5512949169.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512933066.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512936775.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512933025.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512932643.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5479770728.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/stp/5512832299.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/stp/5512780151.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/stp/5495412418.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/stp/5512886650.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512980370.html">
+<title><![CDATA[Attentive Attention - m4w (oakland lake merritt / grand)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512980370.html</link>
+<description><![CDATA[I am a husband and father who enjoys receiving massage. I admire and value the sacred space created by practitioners, to heal the body and quiet the mind. Bodywork has proven integral to my well being, as both a pleasant and practical form of facilit [...]]]></description>
+<dc:date>2016-03-28T21:29:17-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512980370.html</dc:source>
+<dc:title><![CDATA[Attentive Attention - m4w (oakland lake merritt / grand)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00X0X_jSTrjYO2dxj_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T21:29:17-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/stp/5512970846.html">
+<title><![CDATA[Entrepreneur looks for friends - m4w (san jose north)]]></title>
+<link>http://sfbay.craigslist.org/sby/stp/5512970846.html</link>
+<description><![CDATA[I am a successful entrepreneur in Silicon Valley. 
+Due to my busy schedule, I don't have much time to make friends. I am looking for woman friends who will go with me to fine dinners, movies, go to museums, theaters, music shows, you name it. 
+It is  [...]]]></description>
+<dc:date>2016-03-28T21:20:37-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/stp/5512970846.html</dc:source>
+<dc:title><![CDATA[Entrepreneur looks for friends - m4w (san jose north)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00N0N_g7bGtvJtIei_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T21:20:37-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512987326.html">
+<title><![CDATA[Gym buddy? - w4w (oakland lake merritt / grand)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512987326.html</link>
+<description><![CDATA[30yo F. I have a membership to GWPC and never end up going... Would appreciate some company in the mornings? I don't care much about what we do, could even do our separate things but then high-five and grab a cup of coffee for 15 minutes afterward. F [...]]]></description>
+<dc:date>2016-03-28T21:20:26-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512987326.html</dc:source>
+<dc:title><![CDATA[Gym buddy? - w4w (oakland lake merritt / grand)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:20:26-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5506484522.html">
+<title><![CDATA[Indian female in Bay area? Hubby, BF or Family not with you? - m4w (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5506484522.html</link>
+<description><![CDATA[I am an Indian Guy who is looking for a single or attached Indian or Desi lady who is on project work in the Bay area for short term or long term and her family ( hubby or BF or relatives) are back home in India or in other place. I want to be your c [...]]]></description>
+<dc:date>2016-03-28T21:19:59-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5506484522.html</dc:source>
+<dc:title><![CDATA[Indian female in Bay area? Hubby, BF or Family not with you? - m4w (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:19:59-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5506488584.html">
+<title><![CDATA[Are you an Indian Desi female on dependent visa who feels lonely? - m4w (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5506488584.html</link>
+<description><![CDATA[Are you an Indian or middle eastern lady( married or single) on dependent visa ( H4 or L2 etc.) who is bored and lonely sitting at home? 
+Are you someone who wants a close and best friend with whom you can talk and share your thoughts about anything? [...]]]></description>
+<dc:date>2016-03-28T21:19:54-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5506488584.html</dc:source>
+<dc:title><![CDATA[Are you an Indian Desi female on dependent visa who feels lonely? - m4w (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:19:54-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5499827408.html">
+<title><![CDATA[Indian or Desi female lonely in Bay area? Family back home? - m4w (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5499827408.html</link>
+<description><![CDATA[I am looking for an Indian or Desi female who is in the Bay area on H1, F1 or Business Visa on project assignment. 
+Do you feel lonely because your family or relatives are back home in India or in some other state? 
+Are you looking for a good friend  [...]]]></description>
+<dc:date>2016-03-28T21:19:47-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5499827408.html</dc:source>
+<dc:title><![CDATA[Indian or Desi female lonely in Bay area? Family back home? - m4w (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:19:47-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/stp/5512971620.html">
+<title><![CDATA[Let's go out tonight and dance / talk / explore m4m - m4w (marina / cow hollow)]]></title>
+<link>http://sfbay.craigslist.org/sfc/stp/5512971620.html</link>
+<description><![CDATA[Heya errybody! 
+I am new to SF, but I want to go have fun tonight! 
+I am open to pretty much anything. Are there any clubs happening tonight? Is there an awesome Monday night somewhere? Or we can do the wingman thing... 
+Open to most anything, and fr [...]]]></description>
+<dc:date>2016-03-28T21:18:39-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/stp/5512971620.html</dc:source>
+<dc:title><![CDATA[Let's go out tonight and dance / talk / explore m4m - m4w (marina / cow hollow)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00Y0Y_lqKgLfTML8S_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T21:18:39-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5469428180.html">
+<title><![CDATA[Married Indian guy looking for married Indian female for fun. - m4w (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5469428180.html</link>
+<description><![CDATA[I am an Indian married guy looking for East Indian or Desi married female for friendship and some discreet fun. This is no-strings discreet relationship only. 
+Me - Married Indian male, full of stamina, love having fun, discreet, safe and private 
+Yo [...]]]></description>
+<dc:date>2016-03-28T21:17:38-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5469428180.html</dc:source>
+<dc:title><![CDATA[Married Indian guy looking for married Indian female for fun. - m4w (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:17:38-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5475518126.html">
+<title><![CDATA[East Indian or Desi female looking for attention and a friend? - m4w (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5475518126.html</link>
+<description><![CDATA[Are you an Indian Desi female who is married or have a BF but not getting enough attention at home? Or he is too busy and tired after work to make you happy in bedroom? Are you an indian female any marital status who needs a male company and friend?  [...]]]></description>
+<dc:date>2016-03-28T21:16:31-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5475518126.html</dc:source>
+<dc:title><![CDATA[East Indian or Desi female looking for attention and a friend? - m4w (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:16:31-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5508587988.html">
+<title><![CDATA[Friendly, platonic massage exchange - m4w (albany / el cerrito)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5508587988.html</link>
+<description><![CDATA[Hi there. I'm looking for a female to trade massages with. I am experienced, easy going and can provide oils/lotions. 
+All I ask is please have your own place as I have roommates. I am more than happy to meet in public too. 
+Have a nice Easter weeken [...]]]></description>
+<dc:date>2016-03-28T21:11:23-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5508587988.html</dc:source>
+<dc:title><![CDATA[Friendly, platonic massage exchange - m4w (albany / el cerrito)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:11:23-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/stp/5512980245.html">
+<title><![CDATA[The Art of Friendship! - m4m (palo alto)]]></title>
+<link>http://sfbay.craigslist.org/pen/stp/5512980245.html</link>
+<description><![CDATA[Hello, 
+I'm a guy who loves filmmaking, photography, painting and music. Since my recent breakup with my girlfriend I've found myself with more time on my hands, and I'd love to meet others with similar interests. I play guitar and keyboards, made ma [...]]]></description>
+<dc:date>2016-03-28T21:10:09-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/stp/5512980245.html</dc:source>
+<dc:title><![CDATA[The Art of Friendship! - m4m (palo alto)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:10:09-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512975745.html">
+<title><![CDATA[CUTE & BUXOM GIRL WANTED NOW!!! - m4w (Hayward)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512975745.html</link>
+<description><![CDATA[I am a handsome guy and I want to meet some cute, attractive, buxom (40DD) girls aged 18-24. 
+We will go to dinners, go to the shopping malls, and hold sleepovers at my place. There is 
+"NO DEMAND" for Sex. I'm a leisure guy who loves to swim. Do u k [...]]]></description>
+<dc:date>2016-03-28T21:04:01-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512975745.html</dc:source>
+<dc:title><![CDATA[CUTE & BUXOM GIRL WANTED NOW!!! - m4w (Hayward)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:04:01-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512974202.html">
+<title><![CDATA[FEMALE HELP MANAGE MY MONEY - m4w (oakland east)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512974202.html</link>
+<description><![CDATA[I am a disabled, older, male veteran and I need a young female to help me manage my finances. U would help with budgeting, paying bills, grocery and mall shopping, driving me to various appointments (i can teach u how to drive if u don't already know [...]]]></description>
+<dc:date>2016-03-28T21:02:02-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512974202.html</dc:source>
+<dc:title><![CDATA[FEMALE HELP MANAGE MY MONEY - m4w (oakland east)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:02:02-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5509785738.html">
+<title><![CDATA[How about a drink? - m4w (berkeley)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5509785738.html</link>
+<description><![CDATA[Hi! 
+I feel like going for a drink, and maybe some karaoke, and it would make it even more fun to meet someone new, especially now that Spring is upon us and the weather is so nice. Just looking for a friend to start with but I'm open to something mo [...]]]></description>
+<dc:date>2016-03-28T21:01:13-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5509785738.html</dc:source>
+<dc:title><![CDATA[How about a drink? - m4w (berkeley)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T21:01:13-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/stp/5512972187.html">
+<title><![CDATA[Kik? - m4w (san jose south)]]></title>
+<link>http://sfbay.craigslist.org/sby/stp/5512972187.html</link>
+<description><![CDATA[Anyone want to chat on kik? 
+Send me a message with your username and I'll write you back! Don't have to include a pic, but I'll return one of you send one!]]></description>
+<dc:date>2016-03-28T20:59:26-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/stp/5512972187.html</dc:source>
+<dc:title><![CDATA[Kik? - m4w (san jose south)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T20:59:26-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/stp/5512949169.html">
+<title><![CDATA[Employed , well Educated ,funny ,caring PreOP TS looking for Friendshi - t4m (eastbay)]]></title>
+<link>http://sfbay.craigslist.org/sfc/stp/5512949169.html</link>
+<description><![CDATA[Hello guys, My name is Sloane I'm 36 and am looking for male friends I haven't been dating for a long time so I'm not looking for anything serious but i would like to meet a guy thats a true gentleman. Someone that I can talk too and just have a fun  [...]]]></description>
+<dc:date>2016-03-28T20:52:58-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/stp/5512949169.html</dc:source>
+<dc:title><![CDATA[Employed , well Educated ,funny ,caring PreOP TS looking for Friendshi - t4m (eastbay)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T20:52:58-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512933066.html">
+<title><![CDATA[Pc technician looking for love - m4w (oakland hills / mills)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512933066.html</link>
+<description><![CDATA[Hi im a tall athletic but single male.drug free drama free looking for any type of lady who is able to host or would like to get a motel tonight for some fun. I'm open to car play since I can not host due to roomates. 
+I'm clean and a pretty cool guy [...]]]></description>
+<dc:date>2016-03-28T20:30:47-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512933066.html</dc:source>
+<dc:title><![CDATA[Pc technician looking for love - m4w (oakland hills / mills)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T20:30:47-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512936775.html">
+<title><![CDATA[Totally Friendship - You, Unattached Woman - m4w (concord / pleasant hill / martinez)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512936775.html</link>
+<description><![CDATA[Hi - If you are a woman, unattached, Age 40+ and like what you read below, I would like to hear from you with a little background and your personal goals. Plz attach a photo before requesting mine. 
+A little about me: 
+Relocated to the bay area from  [...]]]></description>
+<dc:date>2016-03-28T20:16:55-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512936775.html</dc:source>
+<dc:title><![CDATA[Totally Friendship - You, Unattached Woman - m4w (concord / pleasant hill / martinez)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00000_7m1p1XVvxw7_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T20:16:55-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512933025.html">
+<title><![CDATA[No Plans Tonight, Let's Have some Fun - m4w (danville / san ramon)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512933025.html</link>
+<description><![CDATA[Hi! Good looking, fun, witty man looking to treat a woman tonight. Drinks on me, dinner on me. I am real, not into drama, professional, very real, fun, and very real. If you would like to find out more shoot me a note! I have a beautiful home with a  [...]]]></description>
+<dc:date>2016-03-28T20:12:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512933025.html</dc:source>
+<dc:title><![CDATA[No Plans Tonight, Let's Have some Fun - m4w (danville / san ramon)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00m0m_37FySz8aYqc_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T20:12:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512932643.html">
+<title><![CDATA[No Plans Tonight, Insatiable cock is ready - m4w (dublin / pleasanton / livermore)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512932643.html</link>
+<description><![CDATA[Hi! Good looking, fun, witty man looking to treat a woman tonight. Drinks on me, dinner on me. I am real, not into drama, professional, very real, fun, and very real. If you would like to find out more shoot me a note! I have a beautiful home with a  [...]]]></description>
+<dc:date>2016-03-28T20:12:23-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512932643.html</dc:source>
+<dc:title><![CDATA[No Plans Tonight, Insatiable cock is ready - m4w (dublin / pleasanton / livermore)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00m0m_hO6oe9uhZhw_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T20:12:23-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5479770728.html">
+<title><![CDATA[Seeking a Traveling Buddy - m4m (East Bay)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5479770728.html</link>
+<description><![CDATA[I am looking for a road dog/friend to have good times with and who likes to travel as well. I'm open to gay, bi, or straight buddies, just as long as you like to travel. I find it always boring traveling alone to different places and would love to ha [...]]]></description>
+<dc:date>2016-03-28T19:50:37-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5479770728.html</dc:source>
+<dc:title><![CDATA[Seeking a Traveling Buddy - m4m (East Bay)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00s0s_4x5lsFpPY5l_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T19:50:37-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/stp/5512832299.html">
+<title><![CDATA[Looking- Blatino Oasis Hotel Room - m4m (Bay Area)]]></title>
+<link>http://sfbay.craigslist.org/eby/stp/5512832299.html</link>
+<description><![CDATA[Hi, 
+Looking for someone who doesn't, mind sharing a room. Will split the cost with you with money I get from a paycheck, not a dubious hustle. People often describe me as "not terrible" so i think I'm easy to get along with. I want to go to the Blat [...]]]></description>
+<dc:date>2016-03-28T19:45:21-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/stp/5512832299.html</dc:source>
+<dc:title><![CDATA[Looking- Blatino Oasis Hotel Room - m4m (Bay Area)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/01313_jKWxN9V7uJf_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T19:45:21-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/stp/5512780151.html">
+<title><![CDATA[Making new friends in a new city (ABDL) - m4mw (Foster City)]]></title>
+<link>http://sfbay.craigslist.org/pen/stp/5512780151.html</link>
+<description><![CDATA[Hey local diaper dwellers! I'm an Adult Baby that recently moved to the Peninsula area feeling really lonely. I migrated here due to job relation as a graphic designer. Considering that I'm relatively new to this side of the bay, I wanted to establis [...]]]></description>
+<dc:date>2016-03-28T19:34:49-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/stp/5512780151.html</dc:source>
+<dc:title><![CDATA[Making new friends in a new city (ABDL) - m4mw (Foster City)]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00o0o_kNBB2TOqabp_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2016-03-28T19:34:49-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/stp/5495412418.html">
+<title><![CDATA[in need of a few good friends. - m4w (Bay Area)]]></title>
+<link>http://sfbay.craigslist.org/sby/stp/5495412418.html</link>
+<description><![CDATA[I am looking for some good friends to email or text! please be sane, respectful, dedicated and loyal. I'm not here looking for sex or a hook up I'm getting to old for that.. I don't like liers and or fake people as well.. I am all that and expect the [...]]]></description>
+<dc:date>2016-03-28T19:33:25-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/stp/5495412418.html</dc:source>
+<dc:title><![CDATA[in need of a few good friends. - m4w (Bay Area)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T19:33:25-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/stp/5512886650.html">
+<title><![CDATA[Need a wingman for the weekends - m4m (palo alto)]]></title>
+<link>http://sfbay.craigslist.org/pen/stp/5512886650.html</link>
+<description><![CDATA[I am a 23 year old male, reasonably successful and good looking. Im seeking out a new friend/wingman to go tear up bars, lounges, clubs and all in the area (SF to SJ). Don't care how good you are, just that you are good people and someone that I can  [...]]]></description>
+<dc:date>2016-03-28T19:26:29-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2016 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/stp/5512886650.html</dc:source>
+<dc:title><![CDATA[Need a wingman for the weekends - m4m (palo alto)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2016-03-28T19:26:29-07:00</dcterms:issued>
+</item>
+</rdf:RDF>
