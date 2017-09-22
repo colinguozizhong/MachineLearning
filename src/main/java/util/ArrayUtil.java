@@ -176,4 +176,18 @@ public class ArrayUtil{
 		return array;
 	}
 	
+	double[][] transpositionArray(double[][] orginArray){
+		int m = orginArray.length;
+		int n = orginArray[0].length;
+		
+		double[][] tArray = new double[n][m];
+		
+		for(int i=0;i<n;i++) {
+			for(int j=0;j<m;j++) {
+				tArray[i][j] = orginArray[j][i];
+			}
+		}
+		return tArray;
+	}
+	
 }
