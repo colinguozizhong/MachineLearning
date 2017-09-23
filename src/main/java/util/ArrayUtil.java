@@ -176,7 +176,7 @@ public class ArrayUtil{
 		return array;
 	}
 	
-	double[][] transpositionArray(double[][] orginArray){
+	public static double[][] transpositionArray(double[][] orginArray){
 		int m = orginArray.length;
 		int n = orginArray[0].length;
 		
