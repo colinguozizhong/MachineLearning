@@ -53,7 +53,7 @@ public class SVM {
 		// multiply(oS.alphas,oS.labelMat)
 		double[][] temp = new double[oS.alphas.length][1];
 		for(int i=0;i<oS.alphas.length;i++) {
-			temp[i][0] = oS.alphas[i][0] * oS.labeMat.get(i);
+			temp[i][0] = oS.alphas[i][0] * oS.labelMat.get(i);
 		}
 		double[][] tempT = ArrayUtil.transpositionArray(temp);
 		
@@ -68,7 +68,7 @@ public class SVM {
 //		}
 		double fXk = tempMulit + (double)oS.b;
 		
-		double Ek = fXk - (double)oS.labeMat.get(k);
+		double Ek = fXk - (double)oS.labelMat.get(k);
 		return Ek;
 	}
 	
@@ -85,6 +85,7 @@ public class SVM {
 		
 		//validEcacheList = nonzero(oS.eCache[:,0].A)[0], .A：matrix->Array
 		// http://blog.csdn.net/roler_/article/details/42395393
+		// http://www.cnblogs.com/1zhk/articles/4782812.html
 		// nonzero(oS.eCache[:,0].A)[0]：将oS.eCache[:,0]转成数组后，获取其非零元素所在的位置，且返回一个维度的位置,这里即为行号
 		List<Integer> validEcacheList = new ArrayList<Integer>();
 		for(int mi=0;mi<oS.eCache.length;mi++) {
@@ -169,6 +170,125 @@ public class SVM {
 		
 		return K;
 	}
+	
+	public int innerL(int i, OptStruct oS) {
+		double Ei = calcEk(oS, i);
+		if(((oS.labelMat.get(i) * Ei < -oS.tol) && (oS.alphas[i][0] < oS.C)) || ((oS.labelMat.get(i)*Ei > oS.tol) && (oS.alphas[i][0] > 0))) {
+			Map<String,Object> map = selectJ(i, oS, Ei);
+			int j = (Integer) map.get("maxK");
+			double Ej = (Double) map.get("Ej");
+			double alphaIold = oS.alphas[i][0];
+			double alphaJold = oS.alphas[j][0];
+			
+			double L;
+			double H;
+			if(oS.labelMat.get(i)!=oS.labelMat.get(j)) {
+				L = Math.max(0, oS.labelMat.get(i) - oS.labelMat.get(j));
+				H = Math.min(oS.C,oS.C+oS.alphas[j][0]-oS.alphas[i][0]);
+			}else {
+				L = Math.max(0, oS.alphas[j][0]+oS.alphas[i][0]-oS.C);
+				H = Math.min(oS.C,oS.labelMat.get(j) + oS.labelMat.get(i));
+			}
+			if(L==H) {
+				System.out.println("L==H");
+				return 0;
+			}
+			
+			double eta = 2.0 * oS.K[i][j] - oS.K[i][i] - oS.K[j][j] ;
+			if(eta >= 0) {
+				System.out.println("eta >= 0");
+				return 0;
+			}
+			oS.alphas[j][0] -= oS.labelMat.get(j)*(Ei - Ej)/eta;
+			oS.alphas[j][0] = clipAlpha(oS.alphas[j][0], H, L);
+			updateEk(oS, j);
+			if(Math.abs(oS.alphas[j][0] - alphaJold)<0.00001) {
+				System.out.println("j not moving enough");
+				return 0;
+			}
+			
+			oS.alphas[i][0] += oS.labelMat.get(j)*oS.labelMat.get(i)*(alphaJold - oS.alphas[j][0]);
+			updateEk(oS, i);
+			
+			double b1 = oS.b - Ei- oS.labelMat.get(i)*(oS.alphas[i][0]-alphaIold)*oS.K[i][i] - oS.labelMat.get(j)*(oS.alphas[j][0]-alphaJold)*oS.K[i][j];
+			double b2 = oS.b - Ej- oS.labelMat.get(i)*(oS.alphas[i][0]-alphaIold)*oS.K[i][j] - oS.labelMat.get(j)*(oS.alphas[j][0]-alphaJold)*oS.K[j][j];
+			if(0 < oS.alphas[i][0] && oS.C > oS.alphas[i][0]) {
+				oS.b = b1;
+			}else if(0 < oS.alphas[j][0] && oS.C > oS.alphas[j][0]) {
+				oS.b = b2;
+			}else {
+				oS.b = (b1 + b2) / 2.0;
+			}
+			
+			return 1;
+			
+		}else {
+			return 0;
+		}
+	
+	}
+	
+	public OptStruct smoP(double[][] dataMatIn, List<Integer> classLabels, double C, double toler,int maxIter, Ktup kTup) throws Exception {
+		OptStruct oS = new OptStruct(dataMatIn, classLabels, C, toler, kTup);
+		
+		int iter = 0;
+		boolean entirsSet = true;
+		int alphaPairsChanged = 0;
+		
+		while( iter<maxIter && (alphaPairsChanged > 0 || entirsSet)) {
+			alphaPairsChanged = 0;
+			if(entirsSet) {
+				for(int i = 0;i< oS.m;i++) {
+					alphaPairsChanged += innerL(i, oS);
+					System.out.println("fullSet, iter: "+ iter +" i:"+ i +", pairs changed " + alphaPairsChanged);
+				}
+				iter += 1;
+			}else {
+				//nonBoundIs = nonzero((oS.alphas.A > 0) * (oS.alphas.A < C))[0]
+				//oS.alphas.A > 0 判断数组中元素是否大于0，大于0则相应为智能为true，否则为false
+				List<Integer> nonBoundIs = new ArrayList<Integer>();
+				boolean [][] alphasGt0 = new boolean[oS.alphas.length][1];
+				boolean [][] alphasLtC = new boolean[oS.alphas.length][1];
+				for(int i=0;i<oS.alphas.length;i++) {
+				/*	if(oS.alphas[i][0]>0) {
+						alphasGt0[i][0] = true;
+					}else {
+						alphasGt0[i][0] = false;
+					}
+					
+					if(oS.alphas[i][0]<C) {
+						alphasLtC[i][0] = true;
+					}else {
+						alphasLtC[i][0] = false;
+					}
+					if(alphasGt0[i][0] && alphasLtC[i][0]) {
+						nonBoundIs.add(i);
+					}*/
+					// 简化为
+					if(oS.alphas[i][0]>0 && oS.alphas[i][0]<C) {
+						nonBoundIs.add(i);
+					}
+				}
+				
+				for(int i:nonBoundIs) {
+					alphaPairsChanged += innerL(i,oS);
+					System.out.println( "non-bound, iter: "+ iter +" i:"+ i +", pairs changed "+alphaPairsChanged);
+				}
+	            iter += 1;
+			}
+			
+			if(entirsSet) {
+				entirsSet = false;
+			}else if(alphaPairsChanged == 0) {
+				entirsSet = true;
+			}
+			System.out.println("iteration number: "+iter);
+			
+		}
+		
+		return oS;
+	}
+	 
 	
 	public static void main(String[] args) {
 		SVM svm = new SVM();

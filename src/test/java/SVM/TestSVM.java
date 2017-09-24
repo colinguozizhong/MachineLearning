@@ -56,6 +56,95 @@ public class TestSVM {
 		labelArr = hwLabels;
 	}
 	
+	public static void testDigits(Ktup kTup) throws Exception {
+		loadImages(System.getProperty("user.dir")+"\\src\\test\\java\\SVM\\trainingDigits");
+		SVM svm = new SVM();
+		OptStruct oS = svm.smoP(dataArr, labelArr, 200, 0.0001, 10000, kTup);
+		double b = oS.b;
+		double [][] alphas = oS.alphas;
+		
+		// labelMat = mat(labelArr).transpose() 横向量改为竖向量
+		double [][] datMat = dataArr;
+		int [] labelMat = new int[labelArr.size()];
+		for(int tempI=0;tempI<labelArr.size();tempI++) {
+			labelMat[tempI] = labelArr.get(tempI);
+		}
+		
+		// http://www.cnblogs.com/1zhk/articles/4782812.html
+		List<Integer> svInd = new ArrayList<Integer>();
+		for(int i=0;i<alphas.length;i++) {
+			if(alphas[i][0] > 0 ) {
+				svInd.add(i);
+			}
+		}
+		double[][] sVs = new double[svInd.size()][];
+		double[] labelSV = new double[svInd.size()];
+		
+		for(int i=0;i<svInd.size();i++) {
+			sVs[i] = datMat[svInd.get(i)];
+			labelSV[i] = labelMat[svInd.get(i)];
+		}
+		System.out.println("there are "+sVs.length+" Support Vectors");
+		
+		int m = datMat.length;
+		int n = datMat[0].length;
+		int errorCount = 0;
+		
+		double [] alphasSvId = new double[svInd.size()];
+		
+		for(int i=0;i<m;i++) {
+			double[][] kernelEval = svm.kernelTrans(sVs, datMat[i], kTup);
+			double[][] kernelEvalT = new double[1][kernelEval.length];
+			for(int mi=0;mi<kernelEval.length;mi++) {
+				kernelEvalT[0][mi] = kernelEval[mi][0];
+			}
+			double [] multiplyTemp = new double[labelSV.length];
+			double predict = b;
+			for(int mi=0;mi<kernelEval.length;mi++) {
+				predict += (kernelEval[0][mi] * (labelSV[mi]*alphasSvId[mi])); 
+			}
+			
+			if((predict==0 && labelArr.get(i) == 0 )|| predict*labelArr.get(i)>0) {
+				errorCount += 1;
+			}
+		}
+		
+		System.out.println("the training error rate is:"+ (1.0*errorCount)/m);
+		
+		
+		loadImages(System.getProperty("user.dir")+"\\src\\test\\java\\SVM\\testDigits");
+		
+
+		// labelMat = mat(labelArr).transpose() 横向量改为竖向量
+		datMat = dataArr;
+		labelMat = new int[labelArr.size()];
+		for(int tempI=0;tempI<labelArr.size();tempI++) {
+			labelMat[tempI] = labelArr.get(tempI);
+		}
+		m = datMat.length;
+		n = datMat[0].length;
+		errorCount = 0;
+		
+		for(int i=0;i<m;i++) {
+			double[][] kernelEval = svm.kernelTrans(sVs, datMat[i], kTup);
+			double[][] kernelEvalT = new double[1][kernelEval.length];
+			for(int mi=0;mi<kernelEval.length;mi++) {
+				kernelEvalT[0][mi] = kernelEval[mi][0];
+			}
+			double [] multiplyTemp = new double[labelSV.length];
+			double predict = b;
+			for(int mi=0;mi<kernelEval.length;mi++) {
+				predict += (kernelEval[0][mi] * (labelSV[mi]*alphasSvId[mi])); 
+			}
+			
+			if((predict==0 && labelArr.get(i) == 0 )|| predict*labelArr.get(i)>0) {
+				errorCount += 1;
+			}
+		}
+		
+		System.out.println("the test error rate is:"+ (1.0*errorCount)/m);
+	}
+	
 	public static void main(String[] args) throws Exception {
 		String trainingDir = System.getProperty("user.dir")+"\\src\\test\\java\\SVM\\trainingDigits";
 		loadImages(trainingDir);

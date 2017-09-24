@@ -4,18 +4,18 @@ import java.util.List;
 
 public class OptStruct {
 	double [][] X;
-	List<Integer> labeMat;
+	List<Integer> labelMat;
 	double C;
 	double tol;
 	int m;
 	double [][] alphas;
-	int b;
+	double b;
 	double [][] eCache;
 	double [][] K;
  	
 	public OptStruct(double [][] dataMatIn, List<Integer> classLabels, double C, double toler, Ktup kTup) throws Exception {
 		this.X = dataMatIn;
-		this.labeMat = classLabels;
+		this.labelMat = classLabels;
 		this.C = C;
 		this.tol = toler;
 		this.m = dataMatIn[0].length;
