@@ -63,11 +63,11 @@ public class TestSVM {
 		double b = oS.b;
 		double [][] alphas = oS.alphas;
 		
-		// labelMat = mat(labelArr).transpose() ºáÏòÁ¿¸ÄÎªÊúÏòÁ¿
+		// labelMat = mat(labelArr).transpose() ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		double [][] datMat = dataArr;
 		int [] labelMat = new int[labelArr.size()];
 		for(int tempI=0;tempI<labelArr.size();tempI++) {
-			labelMat[tempI] = labelArr.get(tempI);
+			labelMat[tempI] = labelArr.get(tempI).intValue();
 		}
 		
 		// http://www.cnblogs.com/1zhk/articles/4782812.html
@@ -79,10 +79,11 @@ public class TestSVM {
 		}
 		double[][] sVs = new double[svInd.size()][];
 		double[] labelSV = new double[svInd.size()];
-		
+		double [] alphasSvId = new double[svInd.size()];
 		for(int i=0;i<svInd.size();i++) {
 			sVs[i] = datMat[svInd.get(i)];
 			labelSV[i] = labelMat[svInd.get(i)];
+			alphasSvId[i] = alphas[svInd.get(i)][0];
 		}
 		System.out.println("there are "+sVs.length+" Support Vectors");
 		
@@ -90,7 +91,7 @@ public class TestSVM {
 		int n = datMat[0].length;
 		int errorCount = 0;
 		
-		double [] alphasSvId = new double[svInd.size()];
+		
 		
 		for(int i=0;i<m;i++) {
 			double[][] kernelEval = svm.kernelTrans(sVs, datMat[i], kTup);
@@ -98,13 +99,13 @@ public class TestSVM {
 			for(int mi=0;mi<kernelEval.length;mi++) {
 				kernelEvalT[0][mi] = kernelEval[mi][0];
 			}
-			double [] multiplyTemp = new double[labelSV.length];
+			
 			double predict = b;
 			for(int mi=0;mi<kernelEval.length;mi++) {
-				predict += (kernelEval[0][mi] * (labelSV[mi]*alphasSvId[mi])); 
+				predict += (kernelEval[mi][0] * (labelSV[mi]*alphasSvId[mi])); 
 			}
 			
-			if((predict==0 && labelArr.get(i) == 0 )|| predict*labelArr.get(i)>0) {
+			if(!((predict==0 && labelArr.get(i).intValue() == 0 )|| predict*labelArr.get(i).intValue()>0)) {
 				errorCount += 1;
 			}
 		}
@@ -115,11 +116,11 @@ public class TestSVM {
 		loadImages(System.getProperty("user.dir")+"\\src\\test\\java\\SVM\\testDigits");
 		
 
-		// labelMat = mat(labelArr).transpose() ºáÏòÁ¿¸ÄÎªÊúÏòÁ¿
+		// labelMat = mat(labelArr).transpose() ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		datMat = dataArr;
 		labelMat = new int[labelArr.size()];
 		for(int tempI=0;tempI<labelArr.size();tempI++) {
-			labelMat[tempI] = labelArr.get(tempI);
+			labelMat[tempI] = labelArr.get(tempI).intValue();
 		}
 		m = datMat.length;
 		n = datMat[0].length;
@@ -131,13 +132,13 @@ public class TestSVM {
 			for(int mi=0;mi<kernelEval.length;mi++) {
 				kernelEvalT[0][mi] = kernelEval[mi][0];
 			}
-			double [] multiplyTemp = new double[labelSV.length];
+			
 			double predict = b;
 			for(int mi=0;mi<kernelEval.length;mi++) {
-				predict += (kernelEval[0][mi] * (labelSV[mi]*alphasSvId[mi])); 
+				predict += (kernelEval[mi][0] * (labelSV[mi]*alphasSvId[mi])); 
 			}
 			
-			if((predict==0 && labelArr.get(i) == 0 )|| predict*labelArr.get(i)>0) {
+			if(!((predict==0 && labelArr.get(i) == 0 )|| predict*labelArr.get(i)>0)) {
 				errorCount += 1;
 			}
 		}
@@ -147,8 +148,8 @@ public class TestSVM {
 	
 	public static void main(String[] args) throws Exception {
 		String trainingDir = System.getProperty("user.dir")+"\\src\\test\\java\\SVM\\trainingDigits";
-		loadImages(trainingDir);
-		
+		//loadImages(trainingDir);
+		/*
 		for(int i=0;i<dataArr.length;i++){
 			for(int j=0;j<dataArr[i].length;j++){
 				System.out.print(dataArr[i][j]+" ");
@@ -159,6 +160,11 @@ public class TestSVM {
 		for(int i=0;i<labelArr.size();i++){
 			System.out.print(labelArr.get(i)+" ");
 		}
-		System.out.println();
+		System.out.println();*/
+		
+		Ktup kTup = new Ktup();
+		kTup.ktupType="rbf";
+		kTup.Ïƒ=10;
+		testDigits(kTup);
 	}
 }

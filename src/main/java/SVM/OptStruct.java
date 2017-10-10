@@ -4,7 +4,8 @@ import java.util.List;
 
 public class OptStruct {
 	double [][] X;
-	List<Integer> labelMat;
+	//List<Integer> labelMat;
+	int [] labelMat;
 	double C;
 	double tol;
 	int m;
@@ -15,10 +16,15 @@ public class OptStruct {
  	
 	public OptStruct(double [][] dataMatIn, List<Integer> classLabels, double C, double toler, Ktup kTup) throws Exception {
 		this.X = dataMatIn;
-		this.labelMat = classLabels;
+		this.m = dataMatIn.length;
+		//this.labelMat = classLabels;
+		this.labelMat = new int[this.m];
+		for(int i=0;i<classLabels.size();i++) {
+			this.labelMat [i] = classLabels.get(i);
+		}
 		this.C = C;
 		this.tol = toler;
-		this.m = dataMatIn[0].length;
+		
 		this.b = 0;
 		this.alphas = new double[this.m][1];
 		this.eCache = new double[this.m][2];
@@ -36,11 +42,14 @@ public class OptStruct {
 		}
 		
 		SVM s = new SVM();
+		
 		for(int i=0;i<m;i++) {
 			double [][] t = s.kernelTrans(X, X[i], kTup);
 			for(int j=0;j<X.length;j++) {
-				K[j][i] = t[j][1];
+				K[j][i] = t[j][0];
 			}
 		}
+		
+		
 	}
 }

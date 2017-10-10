@@ -14,10 +14,10 @@ public class SVM {
 		int j = i;
 		
 		Random random = new Random();
-//		while(j == i || j == 0) {
-//			j = random.nextInt(m);
-//		}
-		
+		while(j == i || j == 0) {
+			j = random.nextInt(m);
+		}
+		/*
 		if(i==1 && m==2) {
 			return -1;
 		}else if(i==0 || i==m) {
@@ -34,7 +34,7 @@ public class SVM {
 				j = j2;
 			}
 		}
-		
+		*/
 		return j;
 	}
 	
@@ -53,22 +53,22 @@ public class SVM {
 		// multiply(oS.alphas,oS.labelMat)
 		double[][] temp = new double[oS.alphas.length][1];
 		for(int i=0;i<oS.alphas.length;i++) {
-			temp[i][0] = oS.alphas[i][0] * oS.labelMat.get(i);
+			temp[i][0] = oS.alphas[i][0] * oS.labelMat[i];
 		}
 		double[][] tempT = ArrayUtil.transpositionArray(temp);
 		
 		// multiply(oS.alphas,oS.labelMat).T*oS.K[:,k] + oS.b
 		double tempMulit = 0.0;
-		for(int mi=0;mi<tempT[0].length;mi++) {
-			tempMulit += tempT[0][mi] * oS.K[mi][k];
-		}
-		// Õâ¸öºÍÉÏÃæÐ§¹ûÒ»ÑùÒ»ÑùµÄ
-//		for(int mi=0;mi<temp.length;mi++) {
-//			tempMulit += temp[mi][0] * oS.K[mi][k];
+//		for(int mi=0;mi<tempT[0].length;mi++) {
+//			tempMulit += tempT[0][mi] * oS.K[mi][k];
 //		}
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½Ò»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
+		for(int mi=0;mi<temp.length;mi++) {
+			tempMulit += temp[mi][0] * oS.K[mi][k];
+		}
 		double fXk = tempMulit + (double)oS.b;
 		
-		double Ek = fXk - (double)oS.labelMat.get(k);
+		double Ek = fXk - (double)oS.labelMat[k];
 		return Ek;
 	}
 	
@@ -83,10 +83,10 @@ public class SVM {
 		oS.eCache[i][0] = 1;
 		oS.eCache[i][1] = Ei;
 		
-		//validEcacheList = nonzero(oS.eCache[:,0].A)[0], .A£ºmatrix->Array
+		//validEcacheList = nonzero(oS.eCache[:,0].A)[0], .Aï¿½ï¿½matrix->Array
 		// http://blog.csdn.net/roler_/article/details/42395393
 		// http://www.cnblogs.com/1zhk/articles/4782812.html
-		// nonzero(oS.eCache[:,0].A)[0]£º½«oS.eCache[:,0]×ª³ÉÊý×éºó£¬»ñÈ¡Æä·ÇÁãÔªËØËùÔÚµÄÎ»ÖÃ£¬ÇÒ·µ»ØÒ»¸öÎ¬¶ÈµÄÎ»ÖÃ,ÕâÀï¼´ÎªÐÐºÅ
+		// nonzero(oS.eCache[:,0].A)[0]ï¿½ï¿½ï¿½ï¿½oS.eCache[:,0]×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó£¬»ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½Î»ï¿½Ã£ï¿½ï¿½Ò·ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Î¬ï¿½Èµï¿½Î»ï¿½ï¿½,ï¿½ï¿½ï¿½ï¼´Îªï¿½Ðºï¿½
 		List<Integer> validEcacheList = new ArrayList<Integer>();
 		for(int mi=0;mi<oS.eCache.length;mi++) {
 			if(oS.eCache[mi][0]!=0.0) {
@@ -95,7 +95,8 @@ public class SVM {
 		}
 		
 		if(validEcacheList.size()>1) {
-			for(Integer k:validEcacheList) {
+			for(Integer kI:validEcacheList) {
+				int k = kI.intValue();
 				if(k == i) {
 					continue;
 				}else {
@@ -128,16 +129,17 @@ public class SVM {
 	
 
 	public double [][] kernelTrans(double[][] X, double[] A,Ktup ktup) throws Exception {
-		// AÊÇ(xi1,xi2,xi3¡­¡­,xim)ºáÏòÁ¿
+		// Aï¿½ï¿½(xi1,xi2,xi3ï¿½ï¿½ï¿½ï¿½,xim)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int m,n;
-		m = n = X.length;
-		double[][] K = new double[m][1]; // »ù´¡ÀàÐÍ³õÊ¼»¯Îª0.0
+		m = X.length;
+		n = A.length;
+		double[][] K = new double[m][1]; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í³ï¿½Ê¼ï¿½ï¿½Îª0.0
 		
 		if("lin".equals(ktup.ktupType)) {
-			// K = X * A.T    (A.T£ºAµÄ×ªÖÃ)
+			// K = X * A.T    (A.Tï¿½ï¿½Aï¿½ï¿½×ªï¿½ï¿½)
 			for(int mi=0;mi<m;mi++) {
 				for(int ni=0;ni<n;ni++) {
-					K[mi][1] = K[mi][1] + (X[mi][ni] * A[ni]);
+					K[mi][0] = K[mi][0] + (X[mi][ni] * A[ni]);
 				}
 			}
 //			
@@ -154,14 +156,17 @@ public class SVM {
 				for(int ni=0;ni<n;ni++) {
 					deltaRow[ni] = X[j][ni] - A[ni];
 				}
+				
 				// K[j] = deltaRow*deltaRow.T
 				for(int ni=0;ni<n;ni++) {
-					K[j][1] = K[j][1] + deltaRow[ni]*deltaRow[ni];
+					K[j][0] = K[j][0] + deltaRow[ni]*deltaRow[ni];
 				}
+				// Kç®—çš„ä¸å¯¹
 			}
+			
 			// K = exp(K/(-1*kTup[1]**2))
 			for(int mi=0;mi<m;mi++) {
-				K[mi][1] = Math.pow(Math.E, K[mi][1]/(-1.0*Math.pow(ktup.¦Ò, 2)));
+				K[mi][0] = Math.pow(Math.E, K[mi][0]/(-1.0*Math.pow(ktup.Ïƒ, 2)));
 			}
 		}else {
 			throw new Exception("'Houston We Have a Problem -- \\\r\n" + 
@@ -173,21 +178,24 @@ public class SVM {
 	
 	public int innerL(int i, OptStruct oS) {
 		double Ei = calcEk(oS, i);
-		if(((oS.labelMat.get(i) * Ei < -oS.tol) && (oS.alphas[i][0] < oS.C)) || ((oS.labelMat.get(i)*Ei > oS.tol) && (oS.alphas[i][0] > 0))) {
+		if(((oS.labelMat[i] * Ei < -oS.tol) && (oS.alphas[i][0] < oS.C)) || ((oS.labelMat[i]*Ei > oS.tol) && (oS.alphas[i][0] > 0))) {
 			Map<String,Object> map = selectJ(i, oS, Ei);
 			int j = (Integer) map.get("maxK");
+			if(j<0) {
+				j = oS.alphas.length + j;
+			}
 			double Ej = (Double) map.get("Ej");
 			double alphaIold = oS.alphas[i][0];
 			double alphaJold = oS.alphas[j][0];
 			
 			double L;
 			double H;
-			if(oS.labelMat.get(i)!=oS.labelMat.get(j)) {
-				L = Math.max(0, oS.labelMat.get(i) - oS.labelMat.get(j));
+			if(oS.labelMat[i]!=oS.labelMat[j]) {
+				L = Math.max(0, oS.alphas[j][0] - oS.alphas[i][0]);
 				H = Math.min(oS.C,oS.C+oS.alphas[j][0]-oS.alphas[i][0]);
 			}else {
 				L = Math.max(0, oS.alphas[j][0]+oS.alphas[i][0]-oS.C);
-				H = Math.min(oS.C,oS.labelMat.get(j) + oS.labelMat.get(i));
+				H = Math.min(oS.C,oS.alphas[j][0] + oS.alphas[i][0]);
 			}
 			if(L==H) {
 				System.out.println("L==H");
@@ -199,7 +207,7 @@ public class SVM {
 				System.out.println("eta >= 0");
 				return 0;
 			}
-			oS.alphas[j][0] -= oS.labelMat.get(j)*(Ei - Ej)/eta;
+			oS.alphas[j][0] -= oS.labelMat[j]*(Ei - Ej)/eta;
 			oS.alphas[j][0] = clipAlpha(oS.alphas[j][0], H, L);
 			updateEk(oS, j);
 			if(Math.abs(oS.alphas[j][0] - alphaJold)<0.00001) {
@@ -207,11 +215,11 @@ public class SVM {
 				return 0;
 			}
 			
-			oS.alphas[i][0] += oS.labelMat.get(j)*oS.labelMat.get(i)*(alphaJold - oS.alphas[j][0]);
+			oS.alphas[i][0] += oS.labelMat[j]*oS.labelMat[i]*(alphaJold - oS.alphas[j][0]);
 			updateEk(oS, i);
 			
-			double b1 = oS.b - Ei- oS.labelMat.get(i)*(oS.alphas[i][0]-alphaIold)*oS.K[i][i] - oS.labelMat.get(j)*(oS.alphas[j][0]-alphaJold)*oS.K[i][j];
-			double b2 = oS.b - Ej- oS.labelMat.get(i)*(oS.alphas[i][0]-alphaIold)*oS.K[i][j] - oS.labelMat.get(j)*(oS.alphas[j][0]-alphaJold)*oS.K[j][j];
+			double b1 = oS.b - Ei- oS.labelMat[i]*(oS.alphas[i][0]-alphaIold)*oS.K[i][i] - oS.labelMat[j]*(oS.alphas[j][0]-alphaJold)*oS.K[i][j];
+			double b2 = oS.b - Ej- oS.labelMat[i]*(oS.alphas[i][0]-alphaIold)*oS.K[i][j] - oS.labelMat[j]*(oS.alphas[j][0]-alphaJold)*oS.K[j][j];
 			if(0 < oS.alphas[i][0] && oS.C > oS.alphas[i][0]) {
 				oS.b = b1;
 			}else if(0 < oS.alphas[j][0] && oS.C > oS.alphas[j][0]) {
@@ -245,7 +253,7 @@ public class SVM {
 				iter += 1;
 			}else {
 				//nonBoundIs = nonzero((oS.alphas.A > 0) * (oS.alphas.A < C))[0]
-				//oS.alphas.A > 0 ÅÐ¶ÏÊý×éÖÐÔªËØÊÇ·ñ´óÓÚ0£¬´óÓÚ0ÔòÏàÓ¦ÎªÖÇÄÜÎªtrue£¬·ñÔòÎªfalse
+				//oS.alphas.A > 0 ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½Ó¦Îªï¿½ï¿½ï¿½ï¿½Îªtrueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªfalse
 				List<Integer> nonBoundIs = new ArrayList<Integer>();
 				boolean [][] alphasGt0 = new boolean[oS.alphas.length][1];
 				boolean [][] alphasLtC = new boolean[oS.alphas.length][1];
@@ -264,7 +272,7 @@ public class SVM {
 					if(alphasGt0[i][0] && alphasLtC[i][0]) {
 						nonBoundIs.add(i);
 					}*/
-					// ¼ò»¯Îª
+					// ï¿½ï¿½Îª
 					if(oS.alphas[i][0]>0 && oS.alphas[i][0]<C) {
 						nonBoundIs.add(i);
 					}
