@@ -9,7 +9,7 @@ import java.util.Map;
 public class ArrayUtil{
 	
 	/**
-	 * ÏëÍ¨¹ý·ºÐÍ»ñÈ¡Î¨Ò»Êý¾Ý£¬µ«ÊÇ·ºÐÍÃ²ËÆ²»Ö§³ÖÊý×é
+	 * ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½È¡Î¨Ò»ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ã²ï¿½Æ²ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param dataArray
 	 * @return
 	 */
@@ -37,7 +37,7 @@ public class ArrayUtil{
 	}
 	
 	/**
-	 * ·µ»ØÎ¨Ò»ÖµµÄÊý¾ÝºÍ³öÏÖ´ÎÊý key£ºÎ¨Ò»Öµ£¬value£º³öÏÖ´ÎÊý
+	 * ï¿½ï¿½ï¿½ï¿½Î¨Ò»Öµï¿½ï¿½ï¿½ï¿½ï¿½ÝºÍ³ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ keyï¿½ï¿½Î¨Ò»Öµï¿½ï¿½valueï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½
 	 * @param dataArray
 	 * @return
 	 */
@@ -56,8 +56,8 @@ public class ArrayUtil{
 	}
 	
 	/**
-	 * ·µ»ØÒ»¸öHashMap £¬ key ²»ÖØ¸´µÄÊý¾Ý£¬value Êý¾ÝÔÚÔ­Êý×éµÄË÷Òý
-	 * @param dataArray ²»°üº¬ÖØ¸´Êý¾ÝµÄÊý×é
+	 * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½HashMap ï¿½ï¿½ key ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½value ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	 * @param dataArray ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @return
 	 */
 	public static <T> Map<T,Integer> uniqueArrayMapIndex(T[] dataArray){
@@ -70,7 +70,7 @@ public class ArrayUtil{
 	}
 	
 	/**
-	 * ·µ»Ø×Ö·ûÐÍÊý×éµÄÎ¨Ò»ÖµÊý×é
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¨Ò»Öµï¿½ï¿½ï¿½ï¿½
 	 * @param dataArray
 	 * @return
 	 */
@@ -89,7 +89,7 @@ public class ArrayUtil{
 	}
 	
 	/**
-	 * ·µ»Ø¶þÎ¬Êý×éÎ¨Ò»ÖµµÄÊý¾ÝºÍ³öÏÖ´ÎÊý key£ºÎ¨Ò»Öµ£¬value£º³öÏÖ´ÎÊý
+	 * ï¿½ï¿½ï¿½Ø¶ï¿½Î¬ï¿½ï¿½ï¿½ï¿½Î¨Ò»Öµï¿½ï¿½ï¿½ï¿½ï¿½ÝºÍ³ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ keyï¿½ï¿½Î¨Ò»Öµï¿½ï¿½valueï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½
 	 * @param dataArray
 	 * @return
 	 */
@@ -111,7 +111,7 @@ public class ArrayUtil{
 	}
 	
 	/**
-	 * ·µ»Ø¶þÎ¬Êý×é×Ö·ûÐÍÊý×éµÄÎ¨Ò»ÖµÊý×é
+	 * ï¿½ï¿½ï¿½Ø¶ï¿½Î¬ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¨Ò»Öµï¿½ï¿½ï¿½ï¿½
 	 * @param dataArray
 	 * @return
 	 */
@@ -190,4 +190,39 @@ public class ArrayUtil{
 		return tArray;
 	}
 	
+	public static double[] mean0(double[][] data) {
+		double [] means = new double[data[0].length];
+		for(int j=0;j<data[0].length;j++) {
+			double xSum = 0;
+			for(int i=0;i<data.length;i++) {
+				xSum += data[i][j];
+			}
+			means[j] = xSum/data.length;
+		}
+		return means;
+	}
+	
+	public static double mean(double[] data) {
+		double mean = 0;
+		double sum = 0;
+		for(int j=0;j<data.length;j++) {
+			sum += data[j];
+		}
+		return sum/data.length;
+	}
+	
+	public static double[] var0(double[][] data) {
+		double [] mean0 = mean0(data);
+		double [] var0 = new double[data[0].length];
+		for(int j=0;j<data[0].length;j++) {
+			//mean(abs(x - x.mean())**2);
+			double sumTemp = 0;
+			for(int i=0;i<data.length;i++) {
+				double temp = Math.pow(Math.abs(data[i][j] - mean0[j]),2);
+				sumTemp += temp;
+			}
+			var0[j] = sumTemp/data.length;
+		}
+		return var0;
+	}
 }
