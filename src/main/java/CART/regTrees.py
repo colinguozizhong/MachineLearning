@@ -45,8 +45,8 @@ def linearSolve(dataSet):
 # 切分数据集
 def binSplitDataSet(dataSet, feature, value):
     # 根据特征和特征值，通过过滤方式对数据集进行切分
-    mat0 = dataSet[nonzero(dataSet[:,feature] > value)[0],:]
-    mat1 = dataSet[nonzero(dataSet[:,feature] <= value)[0],:]
+    mat0 = dataSet[nonzero(array(dataSet[:,feature]) > value)[0],:]
+    mat1 = dataSet[nonzero(array(dataSet[:,feature]) <= value)[0],:]
     
     # 返回切分后的两个数据矩阵
     return mat0,mat1
