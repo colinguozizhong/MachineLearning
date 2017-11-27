@@ -211,6 +211,37 @@ public class ArrayUtil{
 		return sum/data.length;
 	}
 	
+	public static double[] mean(double[][] data,int axis) {
+		
+		int m=data.length;
+		int n=data[0].length;
+		
+		double[] means = null;
+		if(0==axis) {
+			// 列方向计算均值
+			means = new double[n];
+			for(int j=0;j<n;j++) {
+				double mean = 0;
+				double sum = 0;
+				for(int i=0;i<m;i++) {
+					sum += data[i][j];
+				}
+				means[j] = sum/m;
+			}
+		}else if(1==axis) {
+			means = new double[m];
+			for(int i=0;i<m;i++) {
+				double sum = 0;
+				for(int j=0;j<n;j++) {
+					sum += data[i][j];
+				}
+				means[i] = sum/n;
+			}
+		}
+		
+		return means;
+	}
+	
 	public static double[] var0(double[][] data) {
 		double [] mean0 = mean0(data);
 		double [] var0 = new double[data[0].length];
