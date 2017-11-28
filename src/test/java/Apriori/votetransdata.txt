@@ -1,0 +1,537 @@
+Huelskamp, Tim 	0	3	4	7	9	23	25	26
+Schock, Aaron 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+DeFazio, Peter 	1	2	5	7	8	11	13	15	17	21	22	24	27	29
+Rigell, E. 	0	3	4	7	9	23	25	26
+Lofgren, Zoe 	1	2	5	7	8	11	13	15	17	21	22	24	27	29
+Kissell, Lawrence 'Larry' 	1	2	4	6	8	11	13	15	17	21	22	25	26	29
+Ros-Lehtinen, Ileana 	0	3	4	7	9	10	13	15	17	21	23	25	26	28
+Kilpatrick, Carolyn 	1	11	15	17	20
+Bartlett, Roscoe 	0	3	4	7	9	11	12	14	16	21	23	25	26	28
+Murphy, Patrick 	1	11	13	15	17	21	29
+Gohmert, Louie 	0	3	4	9	10	12	14	16	23	25	26	28
+Lujan,  Ben 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Minnick, Walter 'Walt' 	1	11	13	15	16	21	28
+Whitfield, Edward 'Ed' 	0	3	4	6	9	13	14	17	21	23	25	26	28
+Jordan, James 'Jim' 	0	7	9	10	12	14	16	21	23	25	26	28
+Ellison, Keith 	1	2	5	6	8	11	13	15	17	20	22	24	27	29
+Shimkus, John 	0	3	4	7	9	10	13	14	16	21	23	25	27	28
+Olver, John 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+King, Steve 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Herger,  Walter 'Wally' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Titus, Alice 'Dina' 	1	11	13	15	17	21	28
+Capuano, Michael 'Mike' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Hoyer, Steny 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Diaz-Balart, Lincoln 	0	10	13	14	17	21	28
+Brady, Robert 'Bob' 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Lipinski, Daniel 	1	2	4	6	8	11	13	14	17	21	23	25	26	29
+Capps, Lois 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+McDermott, James 'Jim' 	1	2	5	6	8	13	15	17	21	22	24	27	29
+Perriello, Tom 	1	11	13	15	17	21	29
+Obey, David Ross 'Dave' 	1	11	13	15	17	21	29
+Huizenga, Bill 	0	3	4	7	9	23	25	27
+Clay,  William 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Mack,  Connie 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Blunt, Roy 	0	10	13	14	16	21
+Hanna, Richard 	0	2	4	7	9	22	25	26
+Diaz-Balart, Mario 	0	3	4	7	9	10	13	14	17	21	23	24	26	28
+Garrett, Scott 	0	3	4	7	9	10	12	14	16	21	23	25	27
+Sewell, Terri 	1	2	4	6	8	22	25	26
+Giffords, Gabrielle 	1	11	13	15	17	21	28
+S谩nchez, Linda 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Duncan, Jeffrey 'Jeff' 	0	3	4	7	9	23	25	26
+Norton, Eleanor 	1	15
+Murphy, Timothy 'Tim' 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+DeGette, Diana 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Granger, Kay 	0	3	4	7	9	10	12	14	16	21	23	24	26
+Cleaver,  Emanuel 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Doggett,  Lloyd 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Lucas, Frank 	0	3	4	7	9	10	12	14	16	21	23	24	26	28
+Hirono, Mazie 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Franks, Trent 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Lance, Leonard 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Harper, Gregg 	0	3	4	7	9	10	12	14	16	21	25	26	28
+Kucinich, Dennis 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Lamborn, Douglas 'Doug' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Bass, Charles 'Charlie' 	0	3	4	7	9	22	25	26
+Lynch, Stephen 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Landry, Jeff 	0	3	4	7	9	23	25	26
+Sutton, Betty 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Hinojosa,  Rub茅n 	1	6	8	11	13	15	17	21	24	27	29
+Hall, Ralph 	0	3	4	7	9	10	12	14	16	21	23	24	26	28
+Young, Charles 'Bill' 	0	3	4	7	9	10	14	17	21	23	25	26	28
+Johnson,  Henry 'Hank' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Rooney, Thomas 'Tom' 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Polis, Jared 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Blumenauer, Earl 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Stark, Fortney 'Pete' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Honda, Michael 'Mike' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Latham, Thomas 'Tom' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Childers, Travis 	1	11	13	14	17	21	28
+Coffman, Michael 'Mike' 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Wilson, Frederica 	1	2	5	6	8	22	24	26
+Myrick, Suellen 'Sue' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Berkley, Shelley 	1	2	4	7	8	11	13	15	17	21	22	24	26	28
+Carney,  John 	1	2	4	6	8	22	25	27
+Rush, Bobby 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Edwards, Thomas 'Chet' 	1	11	13	14	17	21	29
+Bucshon, Larry 	0	3	4	7	9	23	25	26
+Hill, Baron 	1	11	13	15	16	21
+Roe, David 'Phil' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Matheson, James 'Jim' 	1	2	4	7	8	11	13	15	17	21	22	25	27	28
+Gowdy,  Harold 'Trey' 	0	3	4	7	9	23	25	26
+Thompson, Michael 'Mike' 	1	2	5	7	8	11	13	15	17	21	22	24	26	29
+Pascrell,  William 'Bill' 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Frelinghuysen, Rodney 	0	3	4	9	10	13	14	16	21	22	25	26	28
+Grayson, Alan 	1	11	13	15	17	21	29
+Emerson, Jo Ann 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Shuster, Bill 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Johnson, Eddie 	1	2	5	6	8	11	13	15	17	20	22	24	27	29
+Halvorson, Deborah 'Debbie' 	1	11	13	15	17	21	29
+Fleischmann, Charles 'Chuck' 	0	3	4	7	9	23	25	26
+Long, Billy 	0	3	4	7	9	23	25	26
+Barrow, John 	1	2	4	6	8	11	13	15	17	21	22	25	27	28
+Berg, Rick 	0	3	4	7	9	23	25	26
+Perlmutter, Ed 	1	2	4	6	8	11	13	15	17	21	22	24	27	28
+Lummis, Cynthia 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Dicks, Norman 'Norm' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Lankford, James 	0	3	4	7	9	23	25	26
+Guthrie, Steven 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Meek,  Kendrick 	1	11	13	15	17	21	29
+Cummings, Elijah 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Hastings,  Alcee 'Judge' 	1	2	5	6	8	13	17	21	22	24	27	29
+Heck,  Joseph 'Joe' 	0	3	4	6	9	23	25	26
+Bilbray, Brian 	0	3	4	7	9	10	13	14	17	21	23	25	26
+Tonko, Paul 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Walz, Timothy 'Tim' 	1	2	4	6	8	11	13	15	17	21	22	25	26	29
+Kagen, Steven 'Steve' 	1	11	13	15	17	21	29
+Miller, Candice 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Doyle, Michael 'Mike' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Graves, Samuel 'Sam' 	0	3	4	7	9	13	16	21	23	25	26	28
+Davis, Danny 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Conaway, K. 'Mike' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Connolly, Gerald 'Gerry' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Mulvaney, Michael 'Mick' 	0	3	4	7	9	23	25	26
+Boren, David 'Dan' 	1	2	4	7	9	13	17	21	23	25	26	28
+Kratovil,  Frank 	1	11	13	15	17	21	29
+Davis, Lincoln 	1	11	13	14	17	21	28
+Alexander, Rodney 	0	3	4	7	9	10	12	14	21	23	25	26	28
+Duffy, Sean 	0	2	4	7	9	23	25	26
+Neal, Richard 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Crowley, Joseph 'Joe' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Miller, Gary 	0	3	7	9	10	12	14	16	21	23	25	26	28
+Waxman, Henry 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Jackson,  Jesse 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Buchanan, Vern 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+McCarthy, Kevin 	0	3	4	7	9	10	14	16	21	23	25	26	28
+Quayle, Ben 	0	3	4	7	9	25
+Sessions, Peter 'Pete' 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Wu, David 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Paul, Ronald 'Ron' 	0	3	5	7	9	10	12	15	16	21	23	25	27	28
+Frank, Barney 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Buyer, Stephen 'Steve' 	0	10	14	16	21	28
+Watson, Diane 	1	11	15	17	21	29
+Ryan, Timothy 'Tim' 	1	2	4	6	8	11	13	15	17	21	22	24	26	28
+Olson, Pete 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+McCotter, Thaddeus 'Thad' 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Schrader, Kurt 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Walden, Greg 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Rohrabacher, Dana 	0	3	5	7	9	10	12	14	16	21	23	25	26	28
+Murphy, Christopher 'Chris' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Womack, Stephen 'Steve' 	0	3	4	7	9	23	25	26
+Walsh, Joe 	0	3	4	7	9	23	25	26
+Gosar, Paul 	0	3	4	7	9	23	25	27
+Griffin, Tim 	0	3	4	7	9	23	25	26
+Visclosky, Peter 'Pete' 	1	2	5	6	8	11	13	15	17	21	22	25	26	29
+Johnson, Samuel 'Sam' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Schilling, Robert 'Bobby' 	0	3	4	7	9	23	25	26
+Driehaus, Steven 'Steve' 	1	11	13	15	17	21	29
+Hartzler, Vicky 	0	3	4	7	9	23	25	26
+Labrador, Ra煤l 	0	7	9	23	25	26
+Schwartz, Allyson 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Wilson,  Charles 'Charlie' 	1	11	13	15	17	21	29
+Graves,  John 'Tom' 	0	3	4	7	9	12	16	23	25	26	28
+Marshall, James 'Jim' 	1	11	13	14	16
+Markey, Edward 'Ed' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Green, Al 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Broun, Paul 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Palazzo, Steven 	0	3	4	7	9	23	25	26
+Poe, Ted 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Castle, Michael 'Mike' 	0	11	13	14	17	21	28
+Jackson Lee, Sheila 	1	2	5	6	8	11	13	15	17	20	22	24	26	29
+Richmond, Cedric 	1	2	5	6	8	22	24	27
+LoBiondo, Frank 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Westmoreland, Lynn 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Hurt, Robert 	0	3	4	7	9	23	25	26
+Kelly, Mike 	0	3	4	7	9	23	25	26
+Brady, Kevin 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Engel, Eliot 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Lewis, John 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Kline, John 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Costello, Jerry 	1	2	5	6	8	11	13	14	17	21	23	25	27	29
+Slaughter, Louise 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Braley, Bruce 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Shea-Porter, Carol 	1	11	13	15	17	21	29
+Thompson, Bennie 	1	2	5	6	8	11	13	15	17	20	22	24	26	29
+Austria, Steven 'Steve' 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Tanner, John 	1	11	13	14	17	21	28
+Carney, Christopher 'Chris' 	1	11	14	17	21	28
+Filner, Bob 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Maloney, Carolyn 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Kirk, Mark 	0	11	13	14	16	21
+Camp, David 'Dave' 	0	3	4	7	9	10	13	14	16	21	23	25	27	28
+Larson, John 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Peterson, Collin 	1	2	4	7	8	11	13	14	17	21	23	25	26	28
+Akin, W. 	0	3	4	7	9	10	14	16	21	23	25	26	28
+Harman, Jane 	1	8	11	13	15	17	22	24	27	29
+Speier, Karen 'Jackie' 	1	2	5	8	11	13	15	17	21	22	24	27	29
+Christensen, Donna 	1	15
+Sires, Albio 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Courtney, Joseph 'Joe' 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Higgins, Brian 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Moran, Jerry 	0	10	14	16	21	28
+Bishop, Timothy 'Tim' 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Stupak, Bart 	1	13	15	17	21	29
+Young, Todd 	0	3	4	7	9	23	25	26
+Etheridge, Bob 	1	11	13	14	17	21	29
+Payne, Donald 	1	2	5	6	8	11	13	15	20	22	24	27	29
+Gibbs, Bob 	0	3	4	7	9	23	25	26
+Deutch, Theodore 'Ted' 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Pelosi, Nancy 	1	2	4	6	8	11	13	15	17	22	24	27
+Royce, Edward 'Ed' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Nunnelee, Patrick 	0	3	4	7	9	23	25	26
+Radanovich, George 	0	14	21
+Pompeo, Mike 	0	3	4	7	9	23	25	26
+Hanabusa, Colleen 	1	2	4	6	8	22	24	27
+Clyburn, James 'Jim' 	1	2	4	6	8	11	13	15	17	20	22	24	26	29
+Black, Diane 	0	3	4	7	9	23	25	26
+Cicilline, David 	1	2	5	6	8	22	24	27
+Cohen, Stephen 'Steve' 	1	6	8	11	13	15	17	21	22	24	27
+Calvert, Ken 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+LaTourette, Steven 'Steve' 	0	2	4	7	9	10	13	14	17	21	23	24	26	28
+Terry, Lee 	0	3	4	7	9	11	13	14	16	21	23	25	26	28
+Kilroy, Mary Jo 	1	11	13	15	17	21	29
+Holden, Thomas 'Tim' 	1	2	4	6	8	11	13	15	17	21	22	25	26	28
+Forbes, James 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Hoekstra, Peter 'Pete' 	0	10	14
+Burgess, Michael 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Clarke, Yvette 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Souder, Mark 	0
+Peters, Gary 	1	2	4	6	8	11	13	15	17	21	22	25	26	29
+Bright, Bobby 	1	11	12	14	16	21	28
+Webster, Daniel 	0	3	4	7	9	23	25	26
+Foster, Bill 	1	11	13	15	17	21	29
+Sarbanes, John 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Scott, David 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Faleomavaega, Eni 	1	15
+Stearns, Clifford 'Cliff' 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Kingston, Jack 	0	3	4	7	9	10	12	14	16	21	23	24	27	28
+Flores, William 'Bill' 	0	3	4	7	9	23	25	26
+Renacci, James 'Jim' 	0	3	4	7	9	23	25	26
+Green, Raymond 'Gene' 	1	2	4	6	8	11	13	14	17	21	22	25	26	29
+Marchant, Kenny 	0	3	7	9	10	14	16	21	23	25	26
+Johnson, Timothy 'Tim' 	0	3	5	7	9	11	13	14	17	21	23	25	26	28
+Dent, Charles 'Charlie' 	0	3	4	7	9	11	13	14	17	21	22	25	26	28
+Upton, Frederick 'Fred' 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Benishek, Dan 	0	3	4	7	9	23	25	26
+Grijalva, Ra煤l 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Fincher, Stephen 	0	3	4	7	9	23	25	26
+Hultgren, Randall 'Randy' 	0	3	4	7	9	23	25	26
+Murphy, Scott 	1	11	13	15	17	21	29
+Taylor, Gene 	1	11	13	14	17	21	29
+Wamp, Zach 	0	11	14	28
+Schmidt, Jean 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Wasserman Schultz, Debbie 	1	6	8	11	13	15	17	21	22	25	26	29
+Sherman, Brad 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Flake, Jeff 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Boozman, John 	0	10	13	14	16	21	28
+Herseth Sandlin, Stephanie 	1	11	13	15	17	21	28
+Bordallo, Madeleine 	1	15
+Altmire, Jason 	1	2	4	7	8	11	13	15	17	21	22	25	26	29
+Israel, Steve 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Moran,  James 'Jim' 	1	2	5	8	11	13	15	17	20	22	24	27	29
+Schiff, Adam 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Sestak,  Joseph 'Joe' 	1	11	13	15	17	21	29
+McMorris Rodgers, Cathy 	0	3	4	9	10	12	14	16	21	23	25	26
+Chu, Judy 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+King, Peter 'Pete' 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Barrett, J. Gresham 	0	10	12	14	16	28
+Wittman, Robert 'Rob' 	0	3	4	7	9	10	13	14	16	21	23	26	28
+Gerlach, Jim 	0	3	4	7	9	11	13	14	17	21	23	25	26	28
+Meeks, Gregory 	1	2	4	6	8	11	13	15	17	20	22	24	27	29
+Shuler, Joseph 	1	2	5	6	8	13	14	16	21	23	25	26	29
+Rivera, David 	0	3	4	7	9	23	25	26
+Loebsack, David 'Dave' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Bilirakis, Gus 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Cantor, Eric 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Keating, William 'Bill' 	1	2	5	6	8	24	27
+Noem, Kristi 	0	3	4	7	9	23	25	27
+Kanjorski, Paul 	1	11	13	15	17	21	29
+Capito, Shelley 	0	3	4	7	9	11	13	14	21	23	25	26	28
+Thompson,  Glenn 'G.T.' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Owens, William 'Bill' 	1	2	4	7	8	11	13	15	17	21	22	25	26	29
+Stutzman, Marlin 	0	3	4	7	9	23	25	26	28
+Cuellar, Henry 	1	2	4	6	8	11	13	15	17	21	22	25	27	28
+Ross, Dennis 	0	3	4	7	9	23	25	26
+Barton, Joe 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Cooper, Jim 	1	2	4	7	8	11	13	15	16	21	22	25	26	29
+Sullivan, John 	0	3	7	9	10	12	14	16	21	23	25	26	28
+Price, Thomas 'Tom' 	0	3	4	7	9	10	12	14	16	23	25	26	28
+Larsen, Richard 'Rick' 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Costa, Jim 	1	2	4	7	8	11	13	15	17	21	22	25	26	28
+Lowey, Nita 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Snyder, Victor 'Vic' 	1	11	13	15	17	21	29
+Canseco, Francisco 'Quico' 	0	3	4	7	9	23	25	26
+Hare, Philip 'Phil' 	1	11	13	15	17	21	29
+Ryan, Paul 	0	3	4	7	9	12	16	21	23	25	27	28
+Young, Don 	0	7	9	10	12	14	21	23	25	26	28
+Jones,  Walter 	0	3	5	7	9	13	14	17	21	23	25	27	29
+Tiahrt, Todd 	0	10	14	16	21
+Guinta, Frank 	0	3	4	7	9	23	25	26
+Holt,  Rush 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Vel谩zquez, Nydia 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Ellsworth, Brad 	1	11	13	15	17	21	28
+Maffei, Daniel 'Dan' 	1	11	13	15	17	21	29
+Ruppersberger, CA Dutch 'Dutch' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Goodlatte, Robert 'Bob' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Fattah,  Chaka 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Baca,  Joe 	1	2	6	8	11	13	15	17	21	22	25	26	29
+Kildee, Dale 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Chandler,  Albert 	1	2	4	7	8	11	13	15	17	21	22	25	27	29
+Kennedy, Patrick 	1	11	13	15	17	21	29
+Heinrich, Martin 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Arcuri, Michael 	1	11	13	15	17	21	29
+McClintock, Tom 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Butterfield,  George 'G.K.' 	1	2	4	8	11	13	15	17	21	22	24	26	29
+DeLauro, Rosa 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Brown-Waite, Virginia 'Ginny' 	0	13	16	21	28
+Posey, Bill 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Culberson, John 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Ortiz,  Solomon 	1	11	13	14	17	21	29
+Rokita, Todd 	0	3	7	9	23	25	27
+Campbell,  John 	0	3	5	9	10	12	14	16	21	23	25	26	28
+Andrews, Robert 'Rob' 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Stivers, Steve 	0	3	4	7	9	23	25	27
+McHenry, Patrick 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Tsongas, Nicola 'Niki' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Langevin, James 'Jim' 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Shadegg, John 	0	10	14	16	21	28
+Carter, John 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Bachus, Spencer 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Gallegly, Elton 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Castor, Kathy 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Pearce, Stevan 'Steve' 	0	3	4	7	9	23	25	26
+Aderholt, Robert 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Southerland, William 	0	3	4	7	9	23	25	26
+Griffith, H. 	0	3	4	7	9	23	25	27
+Latta, Robert 'Bob' 	0	3	4	7	9	12	14	16	21	23	25	26	28
+Brown, Corrine 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Turner, Michael 'Mike' 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Buerkle, Ann Marie 	0	3	4	7	9	23	25	26
+Boyd,  Allen 	1	11	13	15	17	21	28
+Schauer, Mark 	1	11	13	15	17	21	29
+Runyan, Jon 	0	3	4	7	9	23	25	26
+Spratt,  John 	1	11	13	14	17	21	29
+Blackburn, Marsha 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Rogers, Mike 	0	3	4	7	9	10	14	17	21	23	25	26	28
+Miller, Ralph 'Brad' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Pastor, Edward 'Ed' 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Hastings, Richard 'Doc' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Serrano, Jos茅 	1	2	5	6	8	13	15	17	21	22	24	26	29
+Hensarling, Jeb 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Crenshaw, Ander 	0	3	4	7	9	11	13	14	16	21	23	25	26	28
+Ackerman, Gary 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Kosmas, Suzanne 	1	11	13	15	17	21	29
+McCaul, Michael 	0	3	4	7	9	11	12	14	16	21	23	25	26	28
+Space, Zachary 'Zack' 	1	11	13	15	17	21	29
+Pallone,  Frank 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Rodriguez, Ciro 	1	11	13	15	21	29
+Woolsey, Lynn 	1	2	5	6	8	11	13	15	20	22	24	27	29
+Lewis, Jerry 	0	3	4	7	9	10	12	14	16	21	23	24	26	28
+Boehner, John 	0	9	10	12	14	16	21	28
+Lee, Barbara 	1	2	5	6	8	11	13	15	17	20	22	24	27	29
+Wilson,  Addison 'Joe' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Brooks, Morris 'Mo' 	0	3	4	7	9	23	25	26
+Hunter, Duncan 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Melancon,  Charles 'Charlie' 	1	13	17	21	29
+Cardoza, Dennis 	1	2	4	7	8	11	13	15	17	21	22	25	29
+Mica, John 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Lungren, Daniel 'Dan' 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Mollohan, Alan 	1	11	13	15	17	21
+Kaptur, Marcy 	1	2	4	8	11	13	15	17	21	22	24	27	29
+Marino, Thomas 'Tom' 	0	3	4	7	9	23	25	26
+Djou, Charles 	0	13	15	16	28
+Salazar, John 	1	11	13	15	17	21	28
+Schakowsky, Janice 'Jan' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Van Hollen,  Christopher 'Chris' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Inglis,  Robert 'Bob' 	0	10	12	14	16	21	28
+Griffith,  Rolf 	0	10	14	16	21
+Pierluisi, Pedro 	1
+Tierney, John 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Hinchey, Maurice 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Heller, Dean 	0	3	4	7	9	10	12	14	17	21	23	25	26	28
+McCarthy, Carolyn 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Jenkins, Lynn 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Scalise, Stephen 'Steve' 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Issa, Darrell 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Moore, Gwendolynne 'Gwen' 	1	2	5	6	8	11	13	15	17	22	24	27	29
+McMahon, Michael 	1	11	13	15	17	21
+West, Allen 	0	3	4	7	9	23	25	26
+Miller, Jefferson 'Jeff' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Rothman, Steven 'Steve' 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+McIntyre, Douglas 'Mike' 	1	2	4	6	9	11	13	14	16	21	23	25	26	29
+Fleming,  John 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Roybal-Allard, Lucille 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Inslee, Jay 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Dingell, John 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Watt, Melvin 'Mel' 	1	2	5	6	8	11	15	17	20	22	24	26	29
+Scott, Timothy 'Tim' 	0	3	4	7	9	23	25	26
+Critz, Mark 	1	2	4	6	8	11	13	14	17	22	24	26	29
+Woodall, Robert 'Rob' 	0	2	4	7	9	23	25	26
+Grimm, Michael 	0	3	4	7	9	23	25	26
+Teague, Harry 	1	11	13	15	17	21	29
+Michaud, Michael 'Mike' 	1	2	5	7	8	11	13	15	17	21	22	24	27	29
+Waters, Maxine 	1	2	5	6	8	11	13	15	17	22	24	27	29
+Rogers, Michael 'Mike' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Neugebauer, Randy 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Tiberi, Patrick 'Pat' 	0	2	4	7	9	10	13	14	16	21	23	25	27	28
+Weiner, Anthony 	1	2	5	6	8	11	13	15	17	21	22	25	27	29
+Luetkemeyer, Blaine 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Sensenbrenner,  Frank 'Jim' 	0	3	4	7	9	10	12	14	16	21	23	25	27	28
+Rogers, Harold 'Hal' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Bonner,  Josiah 'Jo' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Hayworth, Nan 	0	3	4	7	9	23	25	26
+Davis, Susan 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Himes, James 'Jim' 	1	2	4	6	8	11	15	17	21	22	25	27	29
+Foxx, Virginia 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Garamendi, John 	1	6	8	11	13	15	17	21	22	24	27	29
+Boswell, Leonard 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+McCollum, Betty 	1	2	4	6	8	11	13	15	17	21	24	29
+Bean, Melissa 	1	11	13	15	17	21	29
+Reed,  Thomas 'Tom' 	0	3	4	7	9	23	25	26	28
+Farenthold, Blake 	0	3	4	7	9	23	24	26
+Mitchell, Harry 	1	11	13	15	17	21	29
+Bishop,  Sanford 	1	2	4	6	8	11	13	14	17	21	22	24	26	29
+Ribble, Reid 	0	3	4	7	9	23	25	26
+Pitts, Joseph 'Joe' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Welch, Peter 	1	2	5	7	8	11	13	15	17	21	22	24	26	29
+Smith, Lamar 	0	3	4	7	9	12	14	16	21	23	25	26	28
+Smith, Adrian 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Adams, Sandra 'Sandy' 	0	3	4	7	9	23	25	26
+Guti茅rrez, Luis 	1	2	5	6	8	11	13	15	17	21	24	27	29
+Pomeroy, Earl 	11	13	14	17	21	28
+Ross, Michael 'Mike' 	1	2	4	7	9	11	13	14	17	21	23	25	26	28
+McGovern, James 'Jim' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Fallin, Mary 	0	10	12	14	16
+Edwards, Donna 	1	2	5	6	8	11	13	15	17	20	22	24	27	29
+Davis, Artur 	1	13	17	28
+Fortenberry, Jeff 	0	3	4	7	9	10	13	14	16	21	23	24	26	28
+Napolitano, Grace 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Petri, Thomas 'Tom' 	0	3	4	7	9	10	13	14	17	21	23	25	27	28
+Herrera Beutler, Jaime 	0	3	4	7	9	23	25	27
+Baird, Brian 	1	11	13	15	16	21	29
+Conyers,  John 	1	2	5	6	8	11	13	15	17	20	22	24	27	29
+Duncan,  John 'Jimmy' 	0	3	5	7	9	10	12	14	16	21	23	25	27	28
+Smith, Adam 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Cole, Tom 	0	3	4	7	9	10	12	14	16	21	23	24	26	28
+Meehan, Patrick 'Pat' 	0	3	4	7	9	23	25	26
+Markey, Betsy 	1	11	13	15	16	21	29
+McNerney, Gerald 'Jerry' 	1	2	5	6	8	13	15	17	21	22	24	27	29
+Hall, John 	1	11	13	15	17	21	29
+Eshoo, Anna 	1	2	5	7	8	11	13	15	17	21	22	24	26	29
+Fudge, Marcia 	1	6	8	11	13	15	17	21	22	24	27	29
+Lee, Christopher 'Chris' 	0	9	11	13	14	16	21	28
+Moore, Dennis 	1	11	13	15	17	21	29
+Nadler, Jerrold 'Jerry' 	1	6	8	11	13	15	17	21	22	24	26
+DesJarlais, Scott 	0	3	4	7	9	23	25	26
+Davis, Geoff 	0	3	4	7	9	16	21	23	24	26	28
+Cassidy, William 'Bill' 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Gibson, Christopher 'Chris' 	0	2	4	7	9	23	25	26
+Tipton, Scott 	0	3	4	7	9	23	25	26
+Ellmers, Renee 	0	3	4	7	9	23	25	26
+Thornberry, William 'Mac' 	0	3	4	7	9	10	12	14	16	21	23	24	26	28
+Levin, Sander 'Sandy' 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Denham, Jeffrey 'Jeff' 	0	3	4	7	9	23	25	26
+Burton, Dan 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Bono Mack, Mary 	0	3	4	7	9	10	13	14	17	21	22	25	26	28
+Biggert, Judy 	0	3	4	7	9	11	13	15	16	21	22	25	26	28
+Gonzalez, Charles 'Charlie' 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Kinzinger, Adam 	0	3	4	7	9	23	25	26
+Hochul, Kathleen 'Kathy' 	4
+Roby, Martha 	0	3	4	7	9	23	25	26
+Putnam, Adam 	0	10	13	14	16	21	28
+Chaffetz, Jason 	0	3	5	7	9	10	12	14	16	21	23	25	26	28
+Simpson, Michael 'Mike' 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Schweikert, David 	0	3	4	7	9	23	25	26
+Towns, Edolphus 'Ed' 	1	2	5	6	8	11	13	15	17	20	22	24	27	29
+Donnelly,  Joe 	1	2	4	6	8	11	13	14	17	21	23	24	26	28
+Brown,  Henry 	0	10	14	16	21	28
+Baldwin, Tammy 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Pingree, Chellie 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Cravaack, Chip 	0	3	4	7	9	23	25	26
+Gordon, Bart 	1	11	13	15	17	21
+Gingrey, Phil 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Smith, Christopher 'Chris' 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Cao, Anh 'Joseph' 	0	11	13	15	17	21	28
+Walberg, Timothy 'Tim' 	0	3	4	7	9	23	25	26
+Nunes, Devin 	0	3	4	7	9	10	14	16	21	23	25	26	28
+Berman, Howard 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Quigley, Mike 	1	2	5	6	8	11	13	15	17	21	22	24	27
+Amash, Justin 	0	7	9	25	26
+Delahunt, William 'Bill' 	1	15	17	21
+Nugent, Richard 'Rich' 	0	3	4	7	9	23	25	26
+Coble, John 	0	3	5	7	9	10	12	14	16	21	23	25	26	28
+Price, David 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Roskam, Peter 	0	3	4	7	9	10	13	14	16	21	23	25	26
+Matsui, Doris 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Skelton, Ike 	1	11	13	14	17	21	29
+Clarke, Hansen 	1	2	5	6	8	22	24	27
+Dold, Robert 'Bob' 	0	3	7	9	22	25	26
+Boustany,  Charles 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Scott, Robert 'Bobby' 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Yarmuth, John 	1	2	5	6	8	11	13	15	17	21	22	25	26	29
+Rangel, Charles 'Charlie' 	1	2	5	8	11	13	15	17	21	22	24	27	29
+Platts, Todd 	0	3	4	7	9	10	13	14	17	21	23	25	26	28
+Miller, George 	1	2	5	7	8	11	13	15	17	21	22	24	27	29
+Pence, Mike 	0	7	9	10	12	14	16	21	23	25	26	28
+Rehberg, Dennis 'Denny' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Paulsen, Erik 	0	3	4	7	9	10	13	14	16	21	23	25	26	28
+Johnson, Bill 	0	3	4	7	9	23	25	26
+Kirkpatrick, Ann 	1	11	13	15	17	21
+Nye,  Glenn 	1	11	13	15	16	21	29
+Richardson, Laura 	1	2	5	6	8	11	13	15	17	21	22	24	26	29
+Farr, Samuel 'Sam' 	1	2	5	6	8	11	13	15	17	21	22	24	27	29
+Sablan, Gregorio 'Kilili' 	1
+Crawford, Rick 	0	3	4	7	9	23	25	26
+Rahall,  Nick 	1	2	4	6	8	11	13	14	17	21	23	25	26	29
+Wolf, Frank 	0	3	4	7	9	11	13	14	16	21	23	24	26	28
+Fitzpatrick, Michael 'Mike' 	0	3	4	7	9	23	25	26
+Barletta, Louis 'Lou' 	0	3	4	7	9	23	25	26
+Becerra, Xavier 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+Chabot, Steven 'Steve' 	0	3	4	7	9	23	25	27
+Dahlkemper, Kathy 	1	11	13	15	17	21	29
+Manzullo, Donald 'Don' 	0	3	4	7	9	10	12	14	17	21	23	25	27	28
+Harris, Andrew 'Andy' 	0	3	4	7	9	23	25	26
+Ehlers, Vernon 'Vern' 	0	11	13	14	17	21	28
+Hodes, Paul 	1	11	13	15	17	21	29
+Gardner, Cory 	0	3	4	7	9	23	25	26
+Oberstar, James 'Jim' 	11	13	15	17	21
+Yoder, Kevin 	0	3	4	7	9	23	25	26
+Reyes, Silvestre 'Silver' 	1	2	4	6	8	11	13	15	17	21	23	24	26	29
+Carnahan, John 'Russ' 	1	2	4	6	8	11	13	15	17	21	22	24	27	29
+McKeon, Howard 'Buck' 	0	3	4	7	9	10	12	14	16	21	23	25	26	28
+Sanchez, Loretta 	1	2	5	6	8	11	13	15	17	21	22	25	27	29
+Berry, Robert 	1	11	14	16
+McKinley, David 	0	3	4	7	9	23	25	26
+Carson, Andr 	1	2	4	6	8	11	13	15	17	21	22	24	26	29
+Reichert, David 'Dave' 	0	2	4	7	9	11	13	14	17	21	23	25	27	28
+Kind, Ronald 'Ron' 	1	2	4	6	8	11	13	15	17	21	22	25	27	29
+Bachmann, Michele 	0	3	4	7	9	10	14	16	21	23	25	27	28
+Boucher, Frederick 'Rick' 	1	11	13	14	17	21
+Dreier, David 	0	3	4	7	9	10	13	14	16	21	23	25	27	28
+Adler, John 	1	11	13	15	17	21	29
+Boccieri, John 	1	11	13	15	17	21	28
+Scott, James 	0	3	4	7	9	23	25	26
+Klein, Ron 	1	11	13	15	17	21	29
+Bass, Karen 	1	2	5	6	8	22	24	27
+Bishop, Rob 	0	3	4	7	9	10	12	14	21	23	25	26	28
+Linder, John 	0	10	14	16	21	28
