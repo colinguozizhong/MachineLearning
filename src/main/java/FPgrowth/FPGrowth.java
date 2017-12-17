@@ -3,6 +3,7 @@ package FPgrowth;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import util.MD5Util;
 
@@ -41,13 +42,31 @@ public class FPGrowth {
 	
 	public void createTree(Map<String,Integer> dataSet,double minSup) {
 		//Map<> headerTable;
-		
+		Map<String,Integer> headerTable = new HashMap<String,Integer>();
 		for(String md5:dataSet.keySet()) {
 			List<Object> trans = transMap.get(md5);
 			for(Object itemObj:trans) {
 				String item = (String) itemObj;
+				int count = 0;
+				if(headerTable.containsKey(item)) {
+					count += headerTable.get(item);
+				}
+				count += dataSet.get(md5);
+				headerTable.put(item, count);
 			}
 		}
+		
+		for(String k:headerTable.keySet()) {
+			if(headerTable.get(k) < minSup) {
+				headerTable.remove(k);
+			}
+		}
+		
+		Set<String> freqItemSet = headerTable.keySet();
+		if(freqItemSet.size() == 0) {
+			return;
+		}
+		
 		
 	}
 	
